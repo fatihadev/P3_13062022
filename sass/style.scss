@@ -1,4 +1,85 @@
-body
-{
-    font-size: 50px;
+html
+{   
+     font-family: 'Roboto', sans-serif;
 }
+
+header
+{
+    font-family:"shrikhand",cursive;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 2000;
+    font-style: italic;
+    position: relative;
+    box-shadow: 0 0 0.5rem rgb(213, 211, 211);
+    padding: 0.3rem;
+
+
+}
+
+
+.city
+{
+
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(232, 232, 232);
+
+    & i
+    {
+        font-size: 1.3rem;
+        padding-right: 11px;
+        
+    }
+
+
+
+    & input
+    {
+        border: none;
+        font-size: medium;
+    }
+}
+
+.reserv 
+{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+
+    & .explore 
+    {
+        font-size: 130%;
+        background-color: #9356DC;
+        border-radius: 49px;
+
+    }
+}
+
+.btnfonct
+{
+
+
+    & .one, .two, .three
+    {
+        
+        background-color: white;
+        padding: 1%;
+        width: 28%;
+        margin-left: 3%;
+        margin-bottom: 7%;
+        border: solid 2px #F2F2F2;
+        border-radius: 49px;
+    }
+    &:hover 
+    {
+        color: #9356DC;
+    }
+
+}
+
+.img
+{
+    width: 20%;
+    height: 20%;
+}
+

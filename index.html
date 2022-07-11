@@ -4,48 +4,58 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=!, initial-scale=1.0">
+            <title>ohmyfood</title>
+            <script src=" https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
             <link rel="stylesheet" href="style.css">
-            <title>Document</title>
+
         </head>
         <body>
             <header>
-              <div class="logo">
-                <img src="images/logo/ohmyfood.png" alt="logo">
-              </div>
+                <h1>ohmyfood</h1>
+            </header>
 
+            <main>
               <div class="form">
                 
-                  <form method="get">  
+                  <form class="city" method="get">  
 
-                  <i class="fas fa-map-marker-alt icon"></i>
+                    <i class="fas fa-map-marker-alt"></i>
 
-                  <input class="text" type="text" name="name" id="name" value="Marseille, France" required>
-              
-                  <input class="search" type="submit" value="Rechercher">
+                    <input class="text" type="text" name="name" id="name" value="Paris, Belville" required>
+          
                   </form>
                    
               </div>
 
+              <div class="reserv">
               <h2 class="titre">Réservez le menu qui vous convient</h2>
               <p class="soustitre">Découvrez des restaurants d'exception <br /> 
               sélectionnés par nos soins</p>
 
-              <buttun>Explorez nos restaurant</buttun>
-
-            </header>
+              <button class="explore">Explorer nos resataurants</button>
+            </div>
+            
             
             <div class="fonctionnement">
               <h1 class="fonct">Fonctionnement</h1>
                 
-                <button class="one"><i class="fa-solid fa-circle-1"></i><i class="fa-light fa-mobile-screen-button"></i>Choissez un restaurant</button>
-                <button class="two"><i class="fa-light fa-circle-2"></i><i class="fa-light fa-bars"></i>Composez votre menu</button>
-                <button class="three"><i class="fa-light fa-circle-3"></i><i class="fa-light fa-store"></i>Dégustez au restaurant</button>
+                  <div class="btnfonct">
+                    <button class="one"><i class="fa-solid fa-circle-1"></i><i class="fa-light fa-mobile-screen-button"></i>Choissez un restaurant</button>
+                    <button class="two"><i class="fa-light fa-circle-2"></i><i class="fa-light fa-bars"></i>Composez votre menu</button>
+                    <button class="three"><i class="fa-light fa-circle-3"></i><i class="fa-light fa-store"></i>Dégustez au restaurant</button>
+                  </div>
+
             </div>
+
+            <br />
 
             <div class="cards">
                 <article class="card"> 
                     <h ref="#">
-                    <img src="jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du gout">
+                    <img class="img" src="images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du gout">
                     <div class="content">
                         <h2>La palette du gout</h2>
                         <p>Ménilmontant</p>
@@ -55,7 +65,7 @@
 
                 <article class="card">    
                   <h ref="#">
-                  <img src="stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
+                  <img class="img" src="images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg" alt="La note enchantée">
                   <div class="content">
                     <h2>La note enchantée</h2>
                       <p>Charonne</p>
@@ -63,7 +73,7 @@
 
                 <article class="card">    
                   <h ref="#">
-                  <img src="toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la francaise">
+                  <img class="img"  src="images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="A la francaise">
                   <div class="content">
                       <h2>A la francaise</h2>
                       <p>cité rouge</p>
@@ -71,7 +81,7 @@
 
                   <article class="card">    
                     <h ref="#">
-                    <img src="louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens ">
+                    <img class="img" src="images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Le délice des sens ">
                     <div class="content">
                       <h2>Le délice des sens</h2>
                         <p>Folie-méricourt</p>
@@ -79,11 +89,11 @@
                       
                   </article>
             </div>
-   </body>
+  </main>
 
    <footer>
 
-    <img src="images/logo/ohmyfood.png" alt="logo">
+    <h1>ohmyfood</h1>
 
     <div class="finpage">
     
@@ -94,5 +104,6 @@
 
     </div>
    </footer>
+  </body>
               
 </html>
