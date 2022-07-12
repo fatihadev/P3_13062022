@@ -19,26 +19,42 @@ header {
   background-color: rgb(232, 232, 232);
 }
 .city i {
-  font-size: 1.3rem;
-  padding-right: 11px;
+  font-size: 130%;
+  padding-left: 27px;
+  padding-bottom: 2%;
 }
 .city input {
   border: none;
   font-size: medium;
+  background-color: rgb(232, 232, 232);
 }
 
 .reserv {
   text-align: center;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(244, 244, 244);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.reserv h2 {
+  margin: 0;
 }
 .reserv .explore {
   font-size: 130%;
-  background-color: #9356DC;
+  background: explore-gradient #9356DC;
   border-radius: 49px;
+  height: 45px;
+  width: 25%;
+}
+.reserv .explore a {
+  text-decoration: none;
+  color: black;
 }
 
+.btnfonct {
+  display: flex;
+}
 .btnfonct .one, .btnfonct .two, .btnfonct .three {
-  background-color: white;
+  background-color: #f1f1f1;
   padding: 1%;
   width: 28%;
   margin-left: 3%;
@@ -46,13 +62,34 @@ header {
   border: solid 2px #F2F2F2;
   border-radius: 49px;
 }
-.btnfonct:hover {
-  color: #9356DC;
+.btnfonct .one:hover, .btnfonct .two:hover, .btnfonct .three:hover {
+  background-color: #be98ec;
 }
 
 .img {
-  width: 20%;
-  height: 20%;
+  width: 87%;
+  height: 63%;
+}
+
+.cards {
+  display: flex;
+}
+.cards .row2 {
+  margin-left: 5%;
+}
+.cards .card {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+.cards .content {
+  border: solid 2px #e6dddd;
+  border-top: none;
+  width: 86.5%;
+}
+.cards h2 {
+  margin: none;
+  padding: none;
 }
 
 /*# sourceMappingURL=style.css.map */
