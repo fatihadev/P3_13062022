@@ -13,47 +13,46 @@ header {
   padding: 0.3rem;
 }
 
-.city {
+main .city {
   text-align: center;
   padding-top: 20px;
   background-color: rgb(232, 232, 232);
 }
-.city i {
+main .city i {
   font-size: 130%;
   padding-left: 27px;
   padding-bottom: 2%;
 }
-.city input {
+main .city input {
   border: none;
   font-size: medium;
   background-color: rgb(232, 232, 232);
 }
-
-.reserv {
+main .reserv {
   text-align: center;
   background-color: rgb(244, 244, 244);
   padding-top: 2%;
   padding-bottom: 2%;
 }
-.reserv h2 {
+main .reserv h2 {
   margin: 0;
 }
-.reserv .explore {
+main .reserv .explore {
   font-size: 130%;
   background: explore-gradient #9356DC;
   border-radius: 49px;
   height: 45px;
   width: 25%;
+  background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
 }
-.reserv .explore a {
+main .reserv .explore a {
   text-decoration: none;
   color: black;
 }
-
-.btnfonct {
+main .btnfonct {
   display: flex;
 }
-.btnfonct .one, .btnfonct .two, .btnfonct .three {
+main .btnfonct .one, main .btnfonct .two, main .btnfonct .three {
   background-color: #f1f1f1;
   padding: 1%;
   width: 28%;
@@ -62,49 +61,104 @@ header {
   border: solid 2px #F2F2F2;
   border-radius: 49px;
 }
-.btnfonct .one:hover, .btnfonct .two:hover, .btnfonct .three:hover {
+main .btnfonct .one:hover, main .btnfonct .two:hover, main .btnfonct .three:hover {
   background-color: #be98ec;
 }
-
-.cards {
+main #restaurants .row1 {
+  margin-left: 5%;
   display: flex;
 }
-.cards .img {
+main #restaurants .row1 .card {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  background-color: white;
+  border-radius: 9%;
+  margin-right: 10%;
+  box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
+  margin-bottom: 7%;
+}
+main #restaurants .row1 .card a {
+  text-decoration: none;
+  color: black;
+}
+main #restaurants .row1 .card a .badge {
+  background-color: #99E2D0;
+  color: black;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 31%;
+  margin-top: 1%;
+}
+main #restaurants .row1 .card a .img {
   width: 100%;
   height: 73%;
   border-radius: 18px 18px 0 0;
   object-fit: cover;
 }
-.cards .badge {
+main #restaurants .row1 .card a .content {
+  margin-left: 5%;
+  width: 86.5%;
+}
+main #restaurants .row1 .card a .content h2 {
+  margin: 0;
+  padding: none;
+}
+main #restaurants .row2 {
+  margin-left: 5%;
+  display: flex;
+}
+main #restaurants .row2 .card {
+  display: flex;
+  width: 87%;
+  height: 33%;
+  background-color: white;
+  border-radius: 9%;
+  margin-right: 9%;
+  box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
+  margin-bottom: 7%;
+}
+main #restaurants .row2 .card a {
+  text-decoration: none;
+  color: black;
+}
+main #restaurants .row2 .card a .badge {
   background-color: #99E2D0;
   color: black;
   padding: 4px 8px;
   text-align: center;
   border-radius: 5px;
 }
-.cards .row1 {
-  margin-left: 5%;
+main #restaurants .row2 .card a .img {
+  width: 100%;
+  height: 73%;
+  border-radius: 18px 18px 0 0;
+  object-fit: cover;
 }
-.cards .row2 {
-  margin-left: 5%;
-}
-.cards .card {
-  display: flex;
-  width: 87%;
-  height: 33%;
-  background-color: white;
-  border-radius: 9%;
-  margin-right: 39%;
-  box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
-  margin-bottom: 7%;
-}
-.cards .content {
+main #restaurants .row2 .card a .content {
   margin-left: 5%;
   width: 86.5%;
 }
-.cards h2 {
+main #restaurants .row2 .card a .content h2 {
   margin: 0;
   padding: none;
+}
+
+footer {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  width: 100%;
+}
+footer h1 {
+  font-family: "shrikhand", cursive;
+  font-size: 30px;
+}
+footer .finpage {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
