@@ -207,28 +207,29 @@ main
 
                         
 
-                            & .iconh 
-                            {
-                                font-size: 20px;
-                                margin-top: 5%;
-
-                               
-                            }
-
-                            & .active
-                            {
-                                background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-                                position: absolute;
-                                bottom: 4%;
-                                opacity: 0;
-            
-
-                                &:hover
+                                & .iconh 
                                 {
-                                    
-                                    opacity: 1;
+                                    font-size: 20px;
+                                    margin-top: 5%;
+
+                                
                                 }
-                            }
+
+                                & .active
+                                {
+                                    background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
+                                    position: absolute;
+                                    bottom: 4%;
+                                    opacity: 0;
+                
+
+                                    &:hover
+                                    {
+                                        
+                                        opacity: 1;
+                                    }
+                                
+                                }
 
                             }
 
@@ -377,7 +378,17 @@ main
 
     & .one, .two, .three
 
-    {
+    {     display: flex;
+        background-color: #f1f1f1;
+        padding: 1%;
+        margin-bottom: 7%;
+        border: solid 2px #F2F2F2;
+        border-radius: 49px;
+        font-weight: bold;
+        width: 39%;
+        height: 25%;
+        justify-content: space-around;
+        
         & .number
         {
 
@@ -385,6 +396,7 @@ main
             padding: 0.5%;
             width: 3%;
             border-radius: 7rem;
+            margin: -4% 0 13% 2%;
         }
     }
 
@@ -423,6 +435,8 @@ main
         
 
     }
+
+
 }
 
 
@@ -478,9 +492,20 @@ main
             display: flex;
 
             & .one, .two, .three
-            {
-                margin-right: 5%;
+            {   
+
+                margin-left: 2%;
+               
+
+                & .number
+                {
+                    margin: -2% 0 0 1%;
+                    width: 3%;
+                }
+             
             }
+
+
 
         }
     }

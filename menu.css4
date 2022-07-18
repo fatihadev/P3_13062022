@@ -50,8 +50,7 @@ main .cardsresto .card a .textm .titre {
   font-size: large;
 }
 main .cardsresto .card a .prix .price {
-  margin-top: 80px;
-  margin-left: 38%;
+  margin-top: 50%;
 }
 main .bouton {
   display: flex;
@@ -67,16 +66,4 @@ main .bouton .commande {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 992px) and (min-width: 768px) {
-  main .img {
-    height: 396px;
-  }
-  main .cardsresto {
-    display: flex;
-  }
-  main .cardsresto .card {
-    display: flex;
-  }
-}
-
-/*# sourceMappingURL=menu.css.map */
+/*# sourceMappingURL=menu.css4.map */

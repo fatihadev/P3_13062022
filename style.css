@@ -206,11 +206,24 @@ footer .finpage {
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
+  main .fonctionnement .btnfonct .one, main .fonctionnement .btnfonct .two, main .fonctionnement .btnfonct .three {
+    display: flex;
+    background-color: #f1f1f1;
+    padding: 1%;
+    margin-bottom: 7%;
+    border: solid 2px #F2F2F2;
+    border-radius: 49px;
+    font-weight: bold;
+    width: 39%;
+    height: 25%;
+    justify-content: space-around;
+  }
   main .fonctionnement .btnfonct .one .number, main .fonctionnement .btnfonct .two .number, main .fonctionnement .btnfonct .three .number {
     margin: -3.5% 0 0 1%;
     padding: 0.5%;
     width: 3%;
     border-radius: 7rem;
+    margin: -4% 0 13% 2%;
   }
   main #restaurants .row1 {
     display: flex;
@@ -235,7 +248,11 @@ footer .finpage {
     display: flex;
   }
   main .fonctionnement .btnfonct .one, main .fonctionnement .btnfonct .two, main .fonctionnement .btnfonct .three {
-    margin-right: 5%;
+    margin-left: 2%;
+  }
+  main .fonctionnement .btnfonct .one .number, main .fonctionnement .btnfonct .two .number, main .fonctionnement .btnfonct .three .number {
+    margin: -2% 0 0 1%;
+    width: 3%;
   }
   main #restaurants .row1 {
     display: flex;
