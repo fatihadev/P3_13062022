@@ -127,27 +127,115 @@ main
     .cardsresto
     {
         
-        display: flex;
-       
-
+                
+        
         & .card
         {
-            display: flex;
+            & a
+            {   
+            
+            
+
+
+                & .textm
+                {
+                    
+
+                    & .titre
+
+                    {
+                        
+                    }
+                }
+
+                & .prix
+                {
+                    & .price
+                    {
+                        margin-top: 33px;
+                        margin-left: 375px; 
+                        font-size: 27px;
+                    }
+
+                }
+            }
+
         }
-
-
     }
 
-
+    .bouton
+    {
+        border-radius: 35px;
+        font-size: 30px;
+    }
 
 }
-
-
-
 }
+
 
 @media screen and (min-width:992px) 
 {
 
+main 
+{
+
+    .img
+    {
+        height: 502px;
+    }
     
+    .Note
+    {
+        &.titr
+        {
+            
+                font-size: 40px;
+                margin-left: 1%;
+        }
+
+        & .soust
+        {
+            font-size: 30px;
+            border-bottom: 6px solid #99E2D0;
+            width: 4%;
+            margin-left: 2%;
+          
+        }
+    }
+
+    .cardsresto
+    {
+
+        & .categorie1, .categorie2, .categorie3
+        {
+            display: flex;
+
+            & .card
+            {
+                margin-bottom: 5%;
+                width: 109%;
+                margin-left: 2%;
+
+                & a 
+                {
+                    & .textm
+                    {
+                        &.titre
+                        {
+                            & h2 
+                            {
+                                
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
 }
+
+}
+

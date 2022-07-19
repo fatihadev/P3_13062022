@@ -71,11 +71,40 @@ main .bouton .commande {
   main .img {
     height: 396px;
   }
-  main .cardsresto {
+  main .cardsresto .card a .prix .price {
+    margin-top: 33px;
+    margin-left: 375px;
+    font-size: 27px;
+  }
+  main .bouton {
+    border-radius: 35px;
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  main .img {
+    height: 502px;
+  }
+  main .Note.titr {
+    font-size: 40px;
+    margin-left: 1%;
+  }
+  main .Note .soust {
+    font-size: 30px;
+    border-bottom: 6px solid #99E2D0;
+    width: 4%;
+    margin-left: 2%;
+  }
+  main .cardsresto .categorie1, main .cardsresto .categorie2, main .cardsresto .categorie3 {
     display: flex;
   }
-  main .cardsresto .card {
-    display: flex;
+  main .cardsresto .categorie1 .card, main .cardsresto .categorie2 .card, main .cardsresto .categorie3 .card {
+    margin-bottom: 5%;
+    width: 109%;
+    margin-left: 2%;
+  }
+  main .cardsresto .categorie1 .card a .textm.titre h2, main .cardsresto .categorie2 .card a .textm.titre h2, main .cardsresto .categorie3 .card a .textm.titre h2 {
+    font-size: 15px;
   }
 }
 
