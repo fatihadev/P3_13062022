@@ -51,7 +51,7 @@ main
         margin-left: 2%;
         margin-right: 3%;
 
-        & .card
+        & .card,.cardn
         {
             margin-bottom: 5%;
 
@@ -90,7 +90,12 @@ main
 
             }
         }
+
+        
     }
+        
+
+
 
     .bouton
     {   
@@ -129,7 +134,7 @@ main
         
                 
         
-        & .card
+        & .card, .cardn
         {
             & a
             {   
@@ -231,8 +236,17 @@ main
                     }
                 }
             }
+
+            .cardn
+            {
+                margin-bottom: 5%;
+                width: 44%;
+
+            }
+         }
+
+
         }
-    }
 
 
 }

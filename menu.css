@@ -32,24 +32,24 @@ main .cardsresto {
   margin-left: 2%;
   margin-right: 3%;
 }
-main .cardsresto .card {
+main .cardsresto .card, main .cardsresto .cardn {
   margin-bottom: 5%;
 }
-main .cardsresto .card a {
+main .cardsresto .card a, main .cardsresto .cardn a {
   color: black;
   text-decoration: none;
 }
-main .cardsresto .card a .textm {
+main .cardsresto .card a .textm, main .cardsresto .cardn a .textm {
   display: flex;
   width: 100%;
   box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
   padding: 1%;
   border-radius: 21px;
 }
-main .cardsresto .card a .textm .titre {
+main .cardsresto .card a .textm .titre, main .cardsresto .cardn a .textm .titre {
   font-size: large;
 }
-main .cardsresto .card a .prix .price {
+main .cardsresto .card a .prix .price, main .cardsresto .cardn a .prix .price {
   margin-top: 80px;
   margin-left: 38%;
 }
@@ -71,7 +71,7 @@ main .bouton .commande {
   main .img {
     height: 396px;
   }
-  main .cardsresto .card a .prix .price {
+  main .cardsresto .card a .prix .price, main .cardsresto .cardn a .prix .price {
     margin-top: 33px;
     margin-left: 375px;
     font-size: 27px;
@@ -105,6 +105,10 @@ main .bouton .commande {
   }
   main .cardsresto .categorie1 .card a .textm.titre h2, main .cardsresto .categorie2 .card a .textm.titre h2, main .cardsresto .categorie3 .card a .textm.titre h2 {
     font-size: 15px;
+  }
+  main .cardsresto .categorie1 .cardn, main .cardsresto .categorie2 .cardn, main .cardsresto .categorie3 .cardn {
+    margin-bottom: 5%;
+    width: 44%;
   }
 }
 
