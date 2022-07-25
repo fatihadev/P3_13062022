@@ -3,19 +3,25 @@ html
      font-family: 'Roboto', sans-serif;
 }
 
-header
+body
 {
-    font-family:"shrikhand",cursive;
-    text-align: center;
-    font-size: 200%;
-    font-weight: 2000;
-    font-style: italic;
-    position: relative;
-    box-shadow: 0 0 0.5rem rgb(213, 211, 211);
-    padding: 0.3rem;
+     margin: 0 0 0 0;
 
 
-}
+
+    header
+    {
+        font-family:"shrikhand",cursive;
+        text-align: center;
+        font-size: 200%;
+        font-weight: 2000;
+        font-style: italic;
+        position: relative;
+        box-shadow: 0 0 0.5rem rgb(213, 211, 211);
+        padding: 0.3rem;
+
+
+    }
 
     
 main
@@ -78,6 +84,11 @@ main
         }
     }
 
+    .fonct
+    {
+        margin-left: 4%;
+    }
+
     .btnfonct
     {   
 
@@ -130,14 +141,25 @@ main
 
 
     #restaurants
-    {
+    {   
+        background-color: rgb(217, 216, 216);
+
+        .resto
+        {
+            margin-left: 4%;
+            padding-top: 3%;
+        }
+        
         
 
         & .row1
 
         { 
-            margin-left: 5%;
+            margin-left: 4%;
             height: 50%;
+            margin-right: 4%;
+            padding-top: 4%;
+            
 
             .card
             {
@@ -154,7 +176,7 @@ main
                 {
                     text-decoration: none;
                     color: black;
-                    font-size: 13px;
+                    font-size: 23px;
                 
 
                     & .badge 
@@ -250,9 +272,10 @@ main
 
         & .row2
         {
-
-                margin-left: 5%;
+                margin-left: 4%;
                 height: 50%;
+                margin-right: 4%;
+                padding-bottom: 8%;
     
                 .card
                 {
@@ -337,6 +360,7 @@ main
 
     }
 }
+}
 
 
 footer
@@ -344,11 +368,13 @@ footer
     background-color: rgb(81, 80, 80);
     color: white;
     width: 100%;
+    padding-top: 5%;
 
         h1 
         {
             font-family:"shrikhand",cursive;
             font-size: 30px;
+            margin: 0 0 0 5%;
         }
 
         .finpage
@@ -356,6 +382,29 @@ footer
             
             justify-content: space-between;
             width: 70%;
+            margin-left: 2%;
+            
+            & .iconf
+            {
+                display: flex;
+
+                & .fas
+                {
+                    margin: 5%;
+                }
+
+            }
+
+            & .legal
+            {
+                margin-left: 5%;
+
+                & .textp, p
+                {
+                    margin-bottom: 0;
+                }
+            }
+
         }
 
 

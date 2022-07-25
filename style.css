@@ -2,7 +2,10 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+body {
+  margin: 0 0 0 0;
+}
+body header {
   font-family: "shrikhand", cursive;
   text-align: center;
   font-size: 200%;
@@ -12,33 +15,32 @@ header {
   box-shadow: 0 0 0.5rem rgb(213, 211, 211);
   padding: 0.3rem;
 }
-
-main .city {
+body main .city {
   text-align: center;
   padding-top: 20px;
   background-color: rgb(232, 232, 232);
 }
-main .city i {
+body main .city i {
   font-size: 130%;
   padding-left: 27px;
   padding-bottom: 2%;
 }
-main .city input {
+body main .city input {
   border: none;
   font-size: medium;
   background-color: rgb(232, 232, 232);
   padding-left: 7%;
 }
-main .reserv {
+body main .reserv {
   text-align: center;
   background-color: rgb(244, 244, 244);
   padding-top: 2%;
   padding-bottom: 2%;
 }
-main .reserv h2 {
+body main .reserv h2 {
   margin: 0;
 }
-main .reserv .explore {
+body main .reserv .explore {
   font-size: 130%;
   background: explore-gradient #9356DC;
   border-radius: 49px;
@@ -46,15 +48,18 @@ main .reserv .explore {
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
   width: 85%;
 }
-main .reserv .explore a {
+body main .reserv .explore a {
   text-decoration: none;
   color: white;
 }
-main .btnfonct {
+body main .fonct {
+  margin-left: 4%;
+}
+body main .btnfonct {
   display: grid;
   place-items: center;
 }
-main .btnfonct .one, main .btnfonct .two, main .btnfonct .three {
+body main .btnfonct .one, body main .btnfonct .two, body main .btnfonct .three {
   display: flex;
   background-color: #f1f1f1;
   padding: 1%;
@@ -66,10 +71,10 @@ main .btnfonct .one, main .btnfonct .two, main .btnfonct .three {
   height: 45%;
   justify-content: space-around;
 }
-main .btnfonct .one i, main .btnfonct .two i, main .btnfonct .three i {
+body main .btnfonct .one i, body main .btnfonct .two i, body main .btnfonct .three i {
   margin-left: 5%;
 }
-main .btnfonct .one .number, main .btnfonct .two .number, main .btnfonct .three .number {
+body main .btnfonct .one .number, body main .btnfonct .two .number, body main .btnfonct .three .number {
   background-color: #9356DC;
   border: 0.2rem solid #9356DC;
   border-radius: 3rem;
@@ -81,14 +86,23 @@ main .btnfonct .one .number, main .btnfonct .two .number, main .btnfonct .three 
   padding: 0.1%;
   margin: -1% 0 0 -60%;
 }
-main .btnfonct .one:hover, main .btnfonct .two:hover, main .btnfonct .three:hover {
+body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
   background-color: #be98ec;
 }
-main #restaurants .row1 {
-  margin-left: 5%;
-  height: 50%;
+body main #restaurants {
+  background-color: rgb(217, 216, 216);
 }
-main #restaurants .row1 .card {
+body main #restaurants .resto {
+  margin-left: 4%;
+  padding-top: 3%;
+}
+body main #restaurants .row1 {
+  margin-left: 4%;
+  height: 50%;
+  margin-right: 4%;
+  padding-top: 4%;
+}
+body main #restaurants .row1 .card {
   width: 98%;
   height: 275px;
   background-color: white;
@@ -97,12 +111,12 @@ main #restaurants .row1 .card {
   box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
   margin-bottom: 7%;
 }
-main #restaurants .row1 .card a {
+body main #restaurants .row1 .card a {
   text-decoration: none;
   color: black;
-  font-size: 13px;
+  font-size: 23px;
 }
-main #restaurants .row1 .card a .badge {
+body main #restaurants .row1 .card a .badge {
   background-color: #99E2D0;
   color: black;
   padding: 4px 8px;
@@ -112,29 +126,29 @@ main #restaurants .row1 .card a .badge {
   margin-left: 31%;
   margin-top: 1%;
 }
-main #restaurants .row1 .card a .img {
+body main #restaurants .row1 .card a .img {
   width: 100%;
   height: 73%;
   border-radius: 18px 18px 0 0;
   object-fit: cover;
 }
-main #restaurants .row1 .card a .textimg {
+body main #restaurants .row1 .card a .textimg {
   display: flex;
 }
-main #restaurants .row1 .card a .textimg .content {
+body main #restaurants .row1 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
   font-size: 13px;
 }
-main #restaurants .row1 .card a .textimg .content h2 {
+body main #restaurants .row1 .card a .textimg .content h2 {
   margin: 0;
   padding: none;
 }
-main #restaurants .row1 .card a .textimg .cardh .iconh {
+body main #restaurants .row1 .card a .textimg .cardh .iconh {
   font-size: 20px;
   margin-top: 5%;
 }
-main #restaurants .row1 .card a .textimg .cardh .active {
+body main #restaurants .row1 .card a .textimg .cardh .active {
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
   position: absolute;
   opacity: 0;
@@ -142,14 +156,16 @@ main #restaurants .row1 .card a .textimg .cardh .active {
   height: 21px;
   width: 17px;
 }
-main #restaurants .row1 .card a .textimg .cardh .active:hover {
+body main #restaurants .row1 .card a .textimg .cardh .active:hover {
   opacity: 1;
 }
-main #restaurants .row2 {
-  margin-left: 5%;
+body main #restaurants .row2 {
+  margin-left: 4%;
   height: 50%;
+  margin-right: 4%;
+  padding-bottom: 8%;
 }
-main #restaurants .row2 .card {
+body main #restaurants .row2 .card {
   width: 98%;
   height: 275px;
   background-color: white;
@@ -158,37 +174,37 @@ main #restaurants .row2 .card {
   box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
   margin-bottom: 7%;
 }
-main #restaurants .row2 .card a {
+body main #restaurants .row2 .card a {
   text-decoration: none;
   color: black;
   font-size: 13px;
 }
-main #restaurants .row2 .card a .badge {
+body main #restaurants .row2 .card a .badge {
   background-color: #99E2D0;
   color: black;
   padding: 4px 8px;
   text-align: center;
   border-radius: 5px;
 }
-main #restaurants .row2 .card a .img {
+body main #restaurants .row2 .card a .img {
   width: 100%;
   height: 73%;
   border-radius: 18px 18px 0 0;
   object-fit: cover;
 }
-main #restaurants .row2 .card a .textimg {
+body main #restaurants .row2 .card a .textimg {
   display: flex;
 }
-main #restaurants .row2 .card a .textimg .content {
+body main #restaurants .row2 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
   font-size: 13px;
 }
-main #restaurants .row2 .card a .textimg .content h2 {
+body main #restaurants .row2 .card a .textimg .content h2 {
   margin: 0;
   padding: none;
 }
-main #restaurants .row2 .card a .textimg .iconh {
+body main #restaurants .row2 .card a .textimg .iconh {
   font-size: 20px;
   margin-top: 5%;
 }
@@ -197,14 +213,29 @@ footer {
   background-color: rgb(81, 80, 80);
   color: white;
   width: 100%;
+  padding-top: 5%;
 }
 footer h1 {
   font-family: "shrikhand", cursive;
   font-size: 30px;
+  margin: 0 0 0 5%;
 }
 footer .finpage {
   justify-content: space-between;
   width: 70%;
+  margin-left: 2%;
+}
+footer .finpage .iconf {
+  display: flex;
+}
+footer .finpage .iconf .fas {
+  margin: 5%;
+}
+footer .finpage .legal {
+  margin-left: 5%;
+}
+footer .finpage .legal .textp, footer .finpage .legal p {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {

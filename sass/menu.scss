@@ -3,119 +3,248 @@ html
      font-family: 'Roboto', sans-serif;
 }
 
-header
+body
 {
-    font-family:"shrikhand",cursive;
-    text-align: center;
-    font-size: 200%;
-    font-weight: 2000;
-    font-style: italic;
-    position: relative;
-    box-shadow: 0 0 0.5rem rgb(213, 211, 211);
-    padding: 0.3rem;
+     margin: 0 0 0 0;
 
-
-}
-
-
-main
-{
-    .img
+    header
     {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-    }
-
-    .Note
-    {
-        & .titr
-        {
-            font-size: 200%;
-            font-weight: bolder;
-            font-style: italic;
+        font-family:"shrikhand",cursive;
+        text-align: center;
+        font-size: 112%;
+        font-weight: 2000;
+        font-style: italic;
+        position: relative;
+        box-shadow: 0 0 0.5rem rgb(213, 211, 211);
+        padding: 0.3rem;
         
+
+        & .logo
+        {
+            display: flex;
+            justify-content: space-around;
+            margin-right: 21%;
+
+        & a 
+        {
+
+            text-decoration: none;
+            color: black;
+
+            & i 
+            {
+                margin-top: 42px;
+                margin-bottom: 29px;
+                display: grid;
+                place-items: center;
+                margin-right: 19%;
+
+            }
+        }
+    
+
         }
 
-        & .soust
-        {
-            font-size: 110%;
-            border-bottom: 4px solid #99E2D0;
-            width: 10%;
-        }
-        
+
     }
 
-    .cardsresto
+
+    main
     {
-        margin-left: 2%;
-        margin-right: 3%;
-
-        & .card,.cardn
+        .img
         {
-            margin-bottom: 5%;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
 
-            & a
-            {   
-                color: black;
-                text-decoration: none;
+        .contenu
+        {   
+        
+            border-radius: 5%;
             
 
+            & .coeur
 
-                & .textm
+            {
+                margin-left: 5%;
+        
+                & .Note
                 {
                     display: flex;
-                    width: 100%;
-                    box-shadow: 0px 0px 13px 2px #80808069;
-                    padding: 1%;
-                    border-radius: 21px;
+                    justify-content: space-between;
 
-                    & .titre
-
+                    & .far
                     {
-                        font-size: large;
+                        margin-top: 7%;
+                        font-size: 25px;
                     }
+
                 }
 
-                & .prix
+
+                & .titr
+                    {
+                        font-size: 200%;
+                        font-weight: bolder;
+                        font-style: italic;
+                        font-family:"shrikhand",cursive;
+                        margin-left: 2%;
+                    
+                    }
+    
+
+            }
+                    
+
+                    & .soust
+                    {
+                        font-size: 110%;
+                        border-bottom: 4px solid #99E2D0;
+                        width: 10%;
+                        margin-left: 2%;
+                    }
+            
+
+            
+            
+
+            .cardsresto
+            {
+                margin-left: 4%;
+                margin-right: 5%;
+
+                & .card,.cardn
                 {
-                    & .price
-                    {
-                        margin-top: 80px;
-                        margin-left: 38%;
+                    margin-bottom: 5%;
+
+                    & a
+                    {   
+                        color: black;
+                        text-decoration: none;
+                    
+
+
+                        & .textm
+                        {
+                            display: flex;
+                            width: 100%;
+                            box-shadow: 0px 0px 13px 2px #80808069;
+                            padding: 1%;
+                            border-radius: 21px;
+                            height: 100%;
+
+                            & .titre
+
+                            {
+                                font-size: large;
+                                margin-left: 2%;
+                            }
+                        }
+
+                        & .prix
+                        {
+                            & .price
+                            {
+                                margin-top: 80px;
+                                margin-left: 38%;
+                            }
+                        }
+
+                    
+
                     }
                 }
 
-               
+                
+            }
+                
+
+
+
+            .bouton
+            {   
+                display: flex;
+                justify-content: center;
+
+                .commande
+                {
+                    background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
+                    border-radius: 10px;
+                    padding: 1%;
+                    width: 35%;
+                    font-size: 100%;
+                    color: white;
+                    border-radius: 20px;
+                    margin-bottom: 15%;
+
+                }
+
 
             }
         }
 
-        
-    }
-        
+}
 
 
+}
 
-    .bouton
-    {   
-        display: flex;
-        justify-content: center;
+footer
+{
+    background-color: rgb(81, 80, 80);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
 
-        .commande
+        h1 
         {
-            background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-            border-radius: 10px;
-            padding: 1%;
-            width: 35%;
-            font-size: 100%;
-            color: white;
-            border-radius: 20px;
+            font-family:"shrikhand",cursive;
+            font-size: 30px;
+            margin: 0 0 0 5%;
+        }
+
+        .finpage
+        {
+            
+            justify-content: space-between;
+            width: 70%;
+            margin-left: 2%;
+            
+            & .iconf
+            {
+                display: flex;
+
+                & .fas
+                {
+                    margin-left: 6%;
+                    margin-top: 1%;
+                    margin-right: 3%;
+                    
+                }
+
+                p 
+                {
+                    margin: 0;
+                }
+
+            }
+
+            & .legal
+            {
+                margin-left: 5%;
+                padding-bottom: 8%;
+
+                & .textp, p
+                {
+                    margin-bottom: 0;
+                    margin-top: 8px;
+                }
+
+             
+            }
 
         }
 
-
-    }
 
 }
 
@@ -129,6 +258,23 @@ main
         height: 396px;
     }
 
+    & .coeur
+    {
+
+        & .Note
+        {
+            & .far
+            {
+                margin-top: 4%; 
+            }
+        }
+
+
+    } 
+
+   
+
+
     .cardsresto
     {
         
@@ -139,12 +285,8 @@ main
             & a
             {   
             
-            
-
-
                 & .textm
                 {
-                    
 
                     & .titre
 
@@ -236,18 +378,86 @@ main
                     }
                 }
             }
+        }
 
-            .cardn
+            & .cardn
             {
                 margin-bottom: 5%;
-                width: 44%;
+                width: 40%;
+                
+                margin-left: 2%;
 
             }
-         }
+        
 
 
         }
 
+
+}
+
+footer
+{
+    background-color: rgb(81, 80, 80);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
+
+        h1 
+        {
+            font-family:"shrikhand",cursive;
+            font-size: 30px;
+            margin: 0 0 0 5%;
+        }
+
+        .finpage
+        {
+            
+            justify-content: space-between;
+            width: 70%;
+            margin-left: 2%;
+            display: flex;
+            
+            & .iconf
+            {
+                display: flex;
+
+                & .fas
+                {
+                    margin-left: 6%;
+                    margin-top: 1%;
+                    margin-right: 3%;
+                    
+                }
+
+                p 
+                {
+                    margin: 0;
+                    width: 320px;
+
+                }
+
+            }
+
+            & .legal
+            {
+                margin-left: 5%;
+                padding-bottom: 8%;
+                display: flex;
+
+                & .textp, p
+                {
+                    margin-bottom: 0;
+                    margin-top: 8px;
+                    margin-left: -5%;
+                    width: 386px;
+                  
+                }
+
+             
+            }
+
+        }
 
 }
 

@@ -2,62 +2,99 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+body {
+  margin: 0 0 0 0;
+}
+body header {
   font-family: "shrikhand", cursive;
   text-align: center;
-  font-size: 200%;
+  font-size: 112%;
   font-weight: 2000;
   font-style: italic;
   position: relative;
   box-shadow: 0 0 0.5rem rgb(213, 211, 211);
   padding: 0.3rem;
 }
-
-main .img {
+body header .logo {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 21%;
+}
+body header .logo a {
+  text-decoration: none;
+  color: black;
+}
+body header .logo a i {
+  margin-top: 42px;
+  margin-bottom: 29px;
+  display: grid;
+  place-items: center;
+  margin-right: 19%;
+}
+body main .img {
   width: 100%;
   height: 250px;
   object-fit: cover;
 }
-main .Note .titr {
+body main .contenu {
+  border-radius: 5%;
+}
+body main .contenu .coeur {
+  margin-left: 5%;
+}
+body main .contenu .coeur .Note {
+  display: flex;
+  justify-content: space-between;
+}
+body main .contenu .coeur .Note .far {
+  margin-top: 7%;
+  font-size: 25px;
+}
+body main .contenu .coeur .titr {
   font-size: 200%;
   font-weight: bolder;
   font-style: italic;
+  font-family: "shrikhand", cursive;
+  margin-left: 2%;
 }
-main .Note .soust {
+body main .contenu .soust {
   font-size: 110%;
   border-bottom: 4px solid #99E2D0;
   width: 10%;
-}
-main .cardsresto {
   margin-left: 2%;
-  margin-right: 3%;
 }
-main .cardsresto .card, main .cardsresto .cardn {
+body main .contenu .cardsresto {
+  margin-left: 4%;
+  margin-right: 5%;
+}
+body main .contenu .cardsresto .card, body main .contenu .cardsresto .cardn {
   margin-bottom: 5%;
 }
-main .cardsresto .card a, main .cardsresto .cardn a {
+body main .contenu .cardsresto .card a, body main .contenu .cardsresto .cardn a {
   color: black;
   text-decoration: none;
 }
-main .cardsresto .card a .textm, main .cardsresto .cardn a .textm {
+body main .contenu .cardsresto .card a .textm, body main .contenu .cardsresto .cardn a .textm {
   display: flex;
   width: 100%;
   box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
   padding: 1%;
   border-radius: 21px;
+  height: 100%;
 }
-main .cardsresto .card a .textm .titre, main .cardsresto .cardn a .textm .titre {
+body main .contenu .cardsresto .card a .textm .titre, body main .contenu .cardsresto .cardn a .textm .titre {
   font-size: large;
+  margin-left: 2%;
 }
-main .cardsresto .card a .prix .price, main .cardsresto .cardn a .prix .price {
+body main .contenu .cardsresto .card a .prix .price, body main .contenu .cardsresto .cardn a .prix .price {
   margin-top: 80px;
   margin-left: 38%;
 }
-main .bouton {
+body main .contenu .bouton {
   display: flex;
   justify-content: center;
 }
-main .bouton .commande {
+body main .contenu .bouton .commande {
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
   border-radius: 10px;
   padding: 1%;
@@ -65,11 +102,51 @@ main .bouton .commande {
   font-size: 100%;
   color: white;
   border-radius: 20px;
+  margin-bottom: 15%;
+}
+
+footer {
+  background-color: rgb(81, 80, 80);
+  color: white;
+  width: 100%;
+  padding-top: 5%;
+}
+footer h1 {
+  font-family: "shrikhand", cursive;
+  font-size: 30px;
+  margin: 0 0 0 5%;
+}
+footer .finpage {
+  justify-content: space-between;
+  width: 70%;
+  margin-left: 2%;
+}
+footer .finpage .iconf {
+  display: flex;
+}
+footer .finpage .iconf .fas {
+  margin-left: 6%;
+  margin-top: 1%;
+  margin-right: 3%;
+}
+footer .finpage .iconf p {
+  margin: 0;
+}
+footer .finpage .legal {
+  margin-left: 5%;
+  padding-bottom: 8%;
+}
+footer .finpage .legal .textp, footer .finpage .legal p {
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   main .img {
     height: 396px;
+  }
+  main .coeur .Note .far {
+    margin-top: 4%;
   }
   main .cardsresto .card a .prix .price, main .cardsresto .cardn a .prix .price {
     margin-top: 33px;
@@ -106,9 +183,50 @@ main .bouton .commande {
   main .cardsresto .categorie1 .card a .textm.titre h2, main .cardsresto .categorie2 .card a .textm.titre h2, main .cardsresto .categorie3 .card a .textm.titre h2 {
     font-size: 15px;
   }
-  main .cardsresto .categorie1 .cardn, main .cardsresto .categorie2 .cardn, main .cardsresto .categorie3 .cardn {
+  main .cardsresto .cardn {
     margin-bottom: 5%;
-    width: 44%;
+    width: 40%;
+    margin-left: 2%;
+  }
+  footer {
+    background-color: rgb(81, 80, 80);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
+  }
+  footer h1 {
+    font-family: "shrikhand", cursive;
+    font-size: 30px;
+    margin: 0 0 0 5%;
+  }
+  footer .finpage {
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 2%;
+    display: flex;
+  }
+  footer .finpage .iconf {
+    display: flex;
+  }
+  footer .finpage .iconf .fas {
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-right: 3%;
+  }
+  footer .finpage .iconf p {
+    margin: 0;
+    width: 320px;
+  }
+  footer .finpage .legal {
+    margin-left: 5%;
+    padding-bottom: 8%;
+    display: flex;
+  }
+  footer .finpage .legal .textp, footer .finpage .legal p {
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-left: -5%;
+    width: 386px;
   }
 }
 
