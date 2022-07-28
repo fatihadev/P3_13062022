@@ -187,8 +187,8 @@ main
                         text-align: center;
                         border-radius: 5px;
                         position: absolute;
-                        margin-left: 31%;
-                        margin-top: 1%;
+                        margin-top: 3%;
+                        right: 10%;
                         
                 
                     }
@@ -222,37 +222,56 @@ main
                                         
                                     }
 
+                                    & p 
+                                    {   
+                                        font-size: 19px;
+                                        margin-top: 5px;
+                                       
+
+                                    }
+
                             }
 
                             & .cardh
                             {
 
                         
+                                & i
+                                {
+                                    position: absolute;
+                                }
 
                                 & .iconh 
                                 {
                                     font-size: 20px;
                                     margin-top: 5%;
-
+                                    opacity: 1;
+                                    cursor: pointer;
                                 
+                                }
+
+                                &:active .iconh
+                                {
+                                    opacity: 0;
                                 }
 
                                 & .active
                                 {
-                                    background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-                                    position: absolute;
+                                    background-image: linear-gradient(#FF79DA ,#9356DC);   
                                     opacity: 0;
-                                    bottom: 18px;
+                                    bottom: -6%;
                                     height: 21px;
                                     width: 17px;
-                
-
-                                    &:hover
-                                    {
-                                        
-                                        opacity: 1;
-                                    }
+                                    transition: all 3s ease-in-out;
+                                    background-clip: text;
+                                    -webkit-background-clip: text;
+                                    
                                 
+                                }
+
+                                &:active .active
+                                {
+                                    opacity: 1;
                                 }
 
                             }
@@ -283,10 +302,11 @@ main
                     width: 98%;
                     height: 275px;
                     background-color: white;
-                    border-radius: 9%;
+                    border-radius: 6%;
                     margin-right: 9%;
                     box-shadow: 0px 0px 13px 2px #80808069;
                     margin-bottom: 7%;
+                 
     
                     & a 
                     {
@@ -303,7 +323,6 @@ main
                             padding: 4px 8px;
                             text-align: center;
                             border-radius: 5px;
-                            
                     
                         }
                 
@@ -326,7 +345,7 @@ main
                                     
                                         margin-left: 5%;
                                         width: 86.5%;
-                                        font-size: 13px;
+                                        
     
                                         
                                         & h2 
@@ -335,6 +354,14 @@ main
                                             padding: none;
                                     
                                             
+                                        }
+
+                                        & p 
+                                        {   
+                                            font-size: 19px;
+                                            margin-top: 5px;
+                                       
+
                                         }
     
                                 }
@@ -418,7 +445,11 @@ footer
 
 @media screen and (max-width: 992px) and (min-width: 768px)
 {
-    
+
+body 
+{
+
+
 main
 {
 .fonctionnement
@@ -468,6 +499,21 @@ main
         { 
            
             display: flex;
+
+            & .card
+            {
+                margin-right: 5%;
+
+                & a
+                {
+
+                    & .badge
+                    {
+                        margin-right: 45%;
+                
+                    }
+                }
+            }
            
 
         }
@@ -479,6 +525,20 @@ main
 
                
                 display: flex;
+
+                & .card
+                {
+    
+                    & a
+                    {
+                        & .badge
+                        {
+                            
+                            
+                    
+                        }
+                    }
+                }
    
     
         }
@@ -492,6 +552,7 @@ main
 
 
    
+}
 }
 
 
@@ -509,7 +570,7 @@ main
 
         & i
         {
-            
+
         }
 
         & input
@@ -621,12 +682,16 @@ main
 
 
 
-        }
+        
 
     }
 
    
 }
+
+}
+ 
+
 
 
 
