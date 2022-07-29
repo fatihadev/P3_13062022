@@ -234,20 +234,24 @@ main
 
                             & .cardh
                             {
-
+                                cursor: pointer;
+                                width: 17px;
+                                height: 21px;
                         
                                 & i
                                 {
                                     position: absolute;
                                 }
 
-                                & .iconh 
-                                {
-                                    font-size: 20px;
-                                    margin-top: 5%;
-                                    opacity: 1;
-                                    cursor: pointer;
-                                
+                            
+                                & .active
+                                {   
+                                    background-color: #9356DC;
+                                    color: transparent;
+                                    opacity: 0;
+                                    background-image: linear-gradient(#FF79DA, #9356DC);
+                                    background-clip: text;
+                                   
                                 }
 
                                 &:active .iconh
@@ -255,19 +259,6 @@ main
                                     opacity: 0;
                                 }
 
-                                & .active
-                                {
-                                    background-image: linear-gradient(#FF79DA ,#9356DC);   
-                                    opacity: 0;
-                                    bottom: -6%;
-                                    height: 21px;
-                                    width: 17px;
-                                    transition: all 3s ease-in-out;
-                                    background-clip: text;
-                                    -webkit-background-clip: text;
-                                    
-                                
-                                }
 
                                 &:active .active
                                 {
@@ -452,42 +443,42 @@ body
 
 main
 {
-.fonctionnement
-{
-  & .btnfonct
-  {
-    
-
-    & .one, .two, .three
-
-    {     display: flex;
-        background-color: #f1f1f1;
-        padding: 1%;
-        margin-bottom: 7%;
-        border: solid 2px #F2F2F2;
-        border-radius: 49px;
-        font-weight: bold;
-        width: 39%;
-        height: 25%;
-        justify-content: space-around;
-        
-        & .number
+    .fonctionnement
+    {
+        & .btnfonct
         {
+    
 
-            margin: -3.5% 0 0 1%;
-            padding: 0.5%;
-            width: 3%;
-            border-radius: 7rem;
-            margin: -4% 0 13% 2%;
-        }
-    }
+            & .one, .two, .three
+
+            {     display: flex;
+                background-color: #f1f1f1;
+                padding: 1%;
+                margin-bottom: 7%;
+                border: solid 2px #F2F2F2;
+                border-radius: 49px;
+                font-weight: bold;
+                width: 39%;
+                height: 25%;
+                justify-content: space-around;
+                
+                & .number
+                {
+
+                    margin: -3.5% 0 0 1%;
+                    padding: 0.5%;
+                    width: 3%;
+                    border-radius: 7rem;
+                    margin: -4% 0 13% 2%;
+                }
+            }
 
 
-  }
+         }
     
 
 
-}
+    }
 
 
     #restaurants
@@ -502,21 +493,25 @@ main
 
             & .card
             {
-                margin-right: 5%;
+                
 
                 & a
                 {
 
                     & .badge
                     {
-                        margin-right: 45%;
-                
+                        right: 0;
+                        margin-left: 15px;
+                        margin-right: 62%;
+                        
                     }
+                        
                 }
             }
+        }
            
 
-        }
+   
 
 
 
@@ -548,10 +543,8 @@ main
     }
 
 
+
 }
-
-
-   
 }
 }
 
