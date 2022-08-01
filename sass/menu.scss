@@ -1,3 +1,20 @@
+@keyframes progress-menu
+{
+    0%
+        { 
+            transform: translatY;
+            opacity: 0;
+        }
+    
+    100%
+        {
+            transform: translatY;
+            opacity: 1;
+            
+        }
+
+}
+
 html
 {   
      font-family: 'Roboto', sans-serif;
@@ -61,8 +78,12 @@ body
         .contenu
         {   
         
-            border-radius: 5%;
-            
+            border-radius: 40px 40px 0 0;
+            z-index: 1;
+            position: absolute;
+            top: 35%;
+            width: 100%;
+            background-color: rgb(254, 254, 254);
 
             & .coeur
 
@@ -74,12 +95,44 @@ body
                     display: flex;
                     justify-content: space-between;
 
-                    & .far
+                    
+                    & .cardh
                     {
+                        cursor: pointer;
+                        width: 17px;
+                        height: 21px;
                         margin-top: 7%;
-                        font-size: 25px;
-                    }
+                        margin-right: 13%;
+                
+                        & i
+                        {
+                            position: absolute;
+                            font-size: 25px;
+                        }
 
+                    
+                        & .active
+                        {   
+                            background-color: #9356DC;
+                            color: transparent;
+                            opacity: 0;
+                            background-image: linear-gradient(#FF79DA, #9356DC);
+                            background-clip: text;
+                           
+                        }
+
+                        &:active .iconh
+                        {
+                            opacity: 0;
+                        }
+
+
+                        &:active .active
+                        {
+                            opacity: 1;
+                        }
+
+                    }
                 }
 
 
@@ -118,11 +171,14 @@ body
                 {
                     margin-bottom: 5%;
 
+            
                     & a
                     {   
                         color: black;
                         text-decoration: none;
-                    
+
+
+
 
 
                         & .textm
@@ -130,34 +186,81 @@ body
                             display: flex;
                             width: 100%;
                             box-shadow: 0px 0px 13px 2px #80808069;
-                            padding: 1%;
                             border-radius: 21px;
                             height: 100%;
+                            overflow: hidden;
+                            
 
                             & .titre
 
                             {
-                                font-size: large;
+                                font-size: 15px;
+                                width: 80%;
                                 margin-left: 2%;
                             }
-                        }
+                       
 
-                        & .prix
-                        {
-                            & .price
+                            & .prix
                             {
-                                margin-top: 80px;
-                                margin-left: 38%;
-                            }
-                        }
+                                display: flex;
+                                width: 20%;
+                                justify-content: space-between;
 
-                    
+                                & .price
+                                {
+                                
+                                    margin-top: 34px;
+                                    margin-left: 5%;
+                                }
+                            
+
+                                & .check
+                                {
+                                    background-color: #99E2D0;
+                                    border-radius: 0 14px 14px 0;
+                                    height: 100px;
+                                    width: 48px;
+                                    margin-right: -53px;
+                                    display: grid;
+                                    place-items: center;
+                                    transition: all 1s ease-in-out;
+                                
+                                    & .checkm
+                                    {
+                                        color: white;
+                                        margin-right: 1%;
+                                        margin-top: 5%;
+                                       
+                                        justify-content: center;
+
+                                      
+                                    }
+
+                                 
+                        
+                                }
+
+                                &:hover .check 
+                                {
+                                   margin-right: 0;
+                                   transform: rotate(360deg);
+                                   
+                                }
+
+    
+
+                            }
+ 
+            
+                        } 
 
                     }
-                }
+                   
+
+              
 
                 
-            }
+                }
                 
 
 
@@ -176,7 +279,7 @@ body
                     font-size: 100%;
                     color: white;
                     border-radius: 20px;
-                    margin-bottom: 15%;
+                    
 
                 }
 
@@ -195,6 +298,7 @@ footer
     color: white;
     width: 100%;
     padding-top: 5%;
+    top: 194%;  
 
         h1 
         {
@@ -262,10 +366,45 @@ main
     {
 
         & .Note
-        {
-            & .far
+    
+        { 
+            
+            & .cardh
             {
-                margin-top: 4%; 
+                cursor: pointer;
+                width: 17px;
+                height: 21px;
+                margin-top: 5%;
+                margin-right: 13%;
+        
+                & i
+                {
+                    position: absolute;
+                    font-size: 25px;
+                }
+
+            
+                & .active
+                {   
+                    background-color: #9356DC;
+                    color: transparent;
+                    opacity: 0;
+                    background-image: linear-gradient(#FF79DA, #9356DC);
+                    background-clip: text;
+                   
+                }
+
+                &:active .iconh
+                {
+                    opacity: 0;
+                }
+
+
+                &:active .active
+                {
+                    opacity: 1;
+                }
+
             }
         }
 
@@ -284,16 +423,6 @@ main
         {
             & a
             {   
-            
-                & .textm
-                {
-
-                    & .titre
-
-                    {
-                        
-                    }
-                }
 
                 & .prix
                 {
@@ -463,3 +592,4 @@ footer
 
 }
 
+}

@@ -357,11 +357,41 @@ main
     
                                 }
     
-                                & .iconh 
+                                & .cardh
+                            {
+                                cursor: pointer;
+                                width: 17px;
+                                height: 21px;
+                        
+                                & i
                                 {
-                                    font-size: 20px;
-                                    margin-top: 5%;
+                                    position: absolute;
+                                    font-size: 25px;
                                 }
+
+                            
+                                & .active
+                                {   
+                                    background-color: #9356DC;
+                                    color: transparent;
+                                    opacity: 0;
+                                    background-image: linear-gradient(#FF79DA, #9356DC);
+                                    background-clip: text;
+                                   
+                                }
+
+                                &:active .iconh
+                                {
+                                    opacity: 0;
+                                }
+
+
+                                &:active .active
+                                {
+                                    opacity: 1;
+                                }
+
+                            }
     
                          }
     
@@ -491,6 +521,8 @@ main
            
             display: flex;
 
+
+
             & .card
             {
                 
@@ -510,10 +542,6 @@ main
             }
         }
            
-
-   
-
-
 
         & .row2
         {
@@ -620,26 +648,39 @@ main
 
 
         & .row1
-        {
+
+        { 
+           
             display: flex;
-       
+
+
 
             & .card
             {
-                height: 460px;
-            }
+                
 
-            & .textimg
-            {
-               
-                & .content
+                & a
                 {
-                    font-size: 19px;
-                    margin-top: 2%;
+
+                    & .badge
+                    {
+                        right: 0;
+
+                        
+                    }
+                    
+                }
+
+                & .textimg
+                {
+                   
+                    & .content
+                    {
+                        font-size: 19px;
+                        margin-top: 2%;
+                    }
                 }
             }
-        
-
         }
 
         & .row2
