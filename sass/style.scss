@@ -1,3 +1,4 @@
+
 html
 {   
      font-family: 'Roboto', sans-serif;
@@ -8,6 +9,90 @@ body
      margin: 0 0 0 0;
 
 
+    & .loading
+    {
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        animation: timeout 1s ease;
+        animation-fill-mode: forwards;
+        
+        z-index: 1;
+
+        margin-left: 23%;
+margin-top: 97%;
+width: 50%;
+height: 26%;
+
+
+
+
+
+		
+        // &::before
+        // {
+      
+        //         content: "";
+        //         position: absolute;
+              
+        //         background: #ffffff;
+                
+        //         animation: timeout 2sec ease;
+        // }
+
+        &::before
+        {   
+            content: "";
+            width: 264px;
+height: 275px;
+            border: 10px solid transparent;
+            border-top-color: #99E2D0;
+            border-radius: 240px;
+            border-right-color: #FF79DA;
+            border-bottom-color: #be98ec;
+            animation: loa 1s linear infinite;
+
+        }
+    }
+
+        
+
+        @keyframes loa {
+
+            to {
+                transform: rotate(1turn);
+            }
+            
+        }
+
+        
+        @keyframes timeout {
+
+
+            0% {
+    
+                opacity: 1;
+            }
+    
+
+            100% {
+    
+                visibility: hidden;
+                opacity: 0;
+                z-index: -1;
+ 
+            
+            }
+            
+
+            }
+
+      
+    
+
+
+
+    
 
     header
     {
@@ -118,14 +203,14 @@ main
             {
                 background-color: #9356DC;
                 border: 0.2rem solid #9356DC;
-                border-radius: 3rem;
-                width: 7%;
+                border-radius: 47%;
+                width: 4%;
                 display: grid;
                 place-items: center;
                 color: white;
                 position: absolute;
                 padding: 0.1%;
-                margin: -1% 0 0 -60%;
+                margin: 0.3% 0 0 -65%;
                 
             }
 
@@ -165,12 +250,13 @@ main
             {
                 
                 width: 98%;
-                height: 275px;
+                height: 339px;
                 background-color: white;
-                border-radius: 9%;
+                border-radius: 46PX;
                 margin-right: 10%;
                 box-shadow: 0px 0px 13px 2px #80808069;
                 margin-bottom: 7%;
+                padding-bottom: 1px;
 
                 & a 
                 {
@@ -291,12 +377,13 @@ main
                 {
                     
                     width: 98%;
-                    height: 275px;
+                    height: 337px;
                     background-color: white;
-                    border-radius: 6%;
+                    border-radius: 46px;
                     margin-right: 9%;
                     box-shadow: 0px 0px 13px 2px #80808069;
                     margin-bottom: 7%;
+                    padding-bottom: 1px;
                  
     
                     & a 
@@ -450,6 +537,8 @@ footer
                 & .textp, p
                 {
                     margin-bottom: 0;
+                    color: white;
+                    text-decoration: none;
                 }
             }
 
@@ -557,7 +646,7 @@ main
                         & .badge
                         {
                             
-                            
+                           color: white; 
                     
                         }
                     }
@@ -589,10 +678,7 @@ main
     {
 
 
-        & i
-        {
-
-        }
+       
 
         & input
         {
@@ -678,6 +764,11 @@ main
                     {
                         font-size: 19px;
                         margin-top: 2%;
+
+                        & h2 
+                        {
+                            font-size: 25px;
+                        }
                     }
                 }
             }
@@ -709,19 +800,45 @@ main
         }
 
 
-
-
-
-
-
-
-
-        
-
     }
 
-   
 }
+
+footer
+{
+    padding-bottom: 54px;
+
+    .finpage
+    {
+        display: flex;
+
+        & .iconf 
+        {
+            width: 320px;
+        }
+
+        & .legal
+        {
+            display: flex;
+
+            & .textp
+           {
+            margin-left: 432%;
+            color: white;
+            text-decoration: none;
+            
+           }
+        }
+    }
+
+}
+
+
+  
+
+
+   
+
 
 }
  

@@ -247,12 +247,19 @@ body
                                    
                                 }
 
+
     
 
                             }
  
             
                         } 
+
+                        &:hover .card
+                        {
+                            animation-name: progress-menu 2sec;
+                            
+                        }
 
                     }
                    
@@ -460,67 +467,84 @@ main
         height: 502px;
     }
     
-    .Note
+    .contenu
     {
-        &.titr
+        & .coeur 
         {
+
             
-                font-size: 40px;
-                margin-left: 1%;
-        }
-
-        & .soust
-        {
-            font-size: 30px;
-            border-bottom: 6px solid #99E2D0;
-            width: 4%;
-            margin-left: 2%;
-          
-        }
-    }
-
-    .cardsresto
-    {
-
-        & .categorie1, .categorie2, .categorie3
-        {
-            display: flex;
-
-            & .card
+    
+            .Note
             {
-                margin-bottom: 5%;
-                width: 109%;
-                margin-left: 2%;
+                font-size: 30px;
+            
 
-                & a 
+                &.titr
                 {
-                    & .textm
+                    
+                        font-size: 40px;
+                        margin-left: 1%;
+                }
+
+                & .soust
+                {
+                    font-size: 30px;
+                    border-bottom: 6px solid #99E2D0;
+                    width: 4%;
+                    margin-left: 2%;
+                    font-size: 30px;
+                    
+                
+                }
+            
+            }
+         }
+
+        .cardsresto
+        {
+
+            & .categorie1, .categorie2, .categorie3
+            {
+                display: flex;
+
+                & .card
+                {
+                    margin-bottom: 5%;
+                    width: 109%;
+                    margin-left: 2%;
+
+                    & a 
                     {
-                        &.titre
+                        & .textm
                         {
-                            & h2 
+                            &.titre
                             {
-                                
-                                font-size: 15px;
+                                & h2 
+                                {
+                                    
+                                    font-size: 15px;
+                                }
                             }
                         }
                     }
                 }
             }
-        }
 
-            & .cardn
-            {
-                margin-bottom: 5%;
-                width: 40%;
-                
-                margin-left: 2%;
+                & .cardn
+                {
+                    margin-bottom: 5%;
+                    width: 32%;
+                    margin-left: 2%;
+
+                }
+            
+
 
             }
-        
 
+    
 
-        }
+    }
 
 
 }
@@ -580,6 +604,8 @@ footer
                     margin-top: 8px;
                     margin-left: -5%;
                     width: 386px;
+                    color: white;
+                    text-decoration: none;
                   
                 }
 
