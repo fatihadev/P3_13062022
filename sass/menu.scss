@@ -1,19 +1,43 @@
 @keyframes progress-menu
 {
-    0%
-        { 
-            transform: translatY;
+    0%{ 
+            transform: translatY (200px);
             opacity: 0;
         }
     
-    100%
-        {
-            transform: translatY;
+    100%{
+            transform: translatY(50px);
             opacity: 1;
             
         }
 
 }
+
+@keyframes rotate {
+
+  from  { transform: rotate(0deg);
+
+  }
+
+  to{
+    transform: rotate(-360deg);
+  }
+    
+}
+
+@keyframes retarde {
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(50px);
+    }
+    
+}
+
 
 html
 {   
@@ -167,18 +191,22 @@ body
                 margin-left: 4%;
                 margin-right: 5%;
 
+            
+            
+
                 & .card,.cardn
                 {
                     margin-bottom: 5%;
+
+                animation: retarde 3s ease-in-out;
+                    
+
 
             
                     & a
                     {   
                         color: black;
                         text-decoration: none;
-
-
-
 
 
                         & .textm
@@ -189,6 +217,11 @@ body
                             border-radius: 21px;
                             height: 100%;
                             overflow: hidden;
+
+                            
+
+                          
+
                             
 
                             & .titre
@@ -197,6 +230,19 @@ body
                                 font-size: 15px;
                                 width: 80%;
                                 margin-left: 2%;
+
+                                & h2
+                                {
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
+
+                            
+                                }
+
+                                
+
+
                             }
                        
 
@@ -211,6 +257,8 @@ body
                                 
                                     margin-top: 34px;
                                     margin-left: 5%;
+
+                                
                                 }
                             
 
@@ -224,6 +272,7 @@ body
                                     display: grid;
                                     place-items: center;
                                     transition: all 1s ease-in-out;
+
                                 
                                     & .checkm
                                     {
@@ -235,38 +284,39 @@ body
 
                                       
                                     }
-
                                  
                         
-                                }
-
-                                &:hover .check 
-                                {
-                                   margin-right: 0;
-                                   transform: rotate(360deg);
-                                   
                                 }
 
 
     
 
                             }
- 
+
+                            &:hover .check 
+                            {
+                               margin-right: 0;
+                            
+                            }
+
+                            &:hover .checkm
+                            {
+                                animation: rotate 3s;
+                            }
+
+                            &:hover h2
+                            {
+                                    width: 200px;
+                            }
+
+                            
+
             
                         } 
 
-                        &:hover .card
-                        {
-                            animation-name: progress-menu 2sec;
-                            
-                        }
-
                     }
-                   
 
               
-
-                
                 }
                 
 

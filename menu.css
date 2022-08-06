@@ -1,11 +1,28 @@
 @keyframes progress-menu {
   0% {
-    transform: translatY;
+    transform: translatY 200px;
     opacity: 0;
   }
   100% {
-    transform: translatY;
+    transform: translatY(50px);
     opacity: 1;
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes retarde {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(50px);
   }
 }
 html {
@@ -104,6 +121,7 @@ body main .contenu .cardsresto {
 }
 body main .contenu .cardsresto .card, body main .contenu .cardsresto .cardn {
   margin-bottom: 5%;
+  animation: retarde 3s ease-in-out;
 }
 body main .contenu .cardsresto .card a, body main .contenu .cardsresto .cardn a {
   color: black;
@@ -121,6 +139,11 @@ body main .contenu .cardsresto .card a .textm .titre, body main .contenu .cardsr
   font-size: 15px;
   width: 80%;
   margin-left: 2%;
+}
+body main .contenu .cardsresto .card a .textm .titre h2, body main .contenu .cardsresto .cardn a .textm .titre h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 body main .contenu .cardsresto .card a .textm .prix, body main .contenu .cardsresto .cardn a .textm .prix {
   display: flex;
@@ -147,12 +170,14 @@ body main .contenu .cardsresto .card a .textm .prix .check .checkm, body main .c
   margin-top: 5%;
   justify-content: center;
 }
-body main .contenu .cardsresto .card a .textm .prix:hover .check, body main .contenu .cardsresto .cardn a .textm .prix:hover .check {
+body main .contenu .cardsresto .card a .textm:hover .check, body main .contenu .cardsresto .cardn a .textm:hover .check {
   margin-right: 0;
-  transform: rotate(360deg);
 }
-body main .contenu .cardsresto .card a:hover .card, body main .contenu .cardsresto .cardn a:hover .card {
-  animation-name: progress-menu 2sec;
+body main .contenu .cardsresto .card a .textm:hover .checkm, body main .contenu .cardsresto .cardn a .textm:hover .checkm {
+  animation: rotate 3s;
+}
+body main .contenu .cardsresto .card a .textm:hover h2, body main .contenu .cardsresto .cardn a .textm:hover h2 {
+  width: 200px;
 }
 body main .contenu .cardsresto .bouton {
   display: flex;
@@ -314,6 +339,8 @@ body footer .finpage .legal .textp, body footer .finpage .legal p {
     margin-top: 8px;
     margin-left: -5%;
     width: 386px;
+    color: white;
+    text-decoration: none;
   }
 }
 
