@@ -28,23 +28,12 @@ height: 26%;
 
 
 
-		
-        // &::before
-        // {
-      
-        //         content: "";
-        //         position: absolute;
-              
-        //         background: #ffffff;
-                
-        //         animation: timeout 2sec ease;
-        // }
 
         &::before
         {   
             content: "";
             width: 264px;
-height: 275px;
+            height: 275px;
             border: 10px solid transparent;
             border-top-color: #99E2D0;
             border-radius: 240px;
@@ -158,6 +147,11 @@ main
             height: 45px;
             background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
             width: 85%;
+            border: none;
+            margin-left: 10%;
+            display: grid;
+            place-items: center;
+            
 
             & a 
             {
@@ -250,7 +244,7 @@ main
             {
                 
                 width: 98%;
-                height: 339px;
+                height: 287px;
                 background-color: white;
                 border-radius: 46PX;
                 margin-right: 10%;
@@ -275,6 +269,7 @@ main
                         position: absolute;
                         margin-top: 3%;
                         right: 10%;
+
                         
                 
                     }
@@ -377,7 +372,7 @@ main
                 {
                     
                     width: 98%;
-                    height: 337px;
+                    height: 287px;
                     background-color: white;
                     border-radius: 46px;
                     margin-right: 9%;
@@ -544,12 +539,6 @@ footer
 
         }
 
-
-
-
-
-
-
 }
 
 
@@ -647,7 +636,8 @@ main
                         {
                             
                            color: white; 
-                    
+                          
+                          
                         }
                     }
                 }
@@ -670,6 +660,11 @@ main
 @media screen and (min-width:992px) 
 
 {
+
+body
+{
+
+
 
 main 
 {
@@ -718,7 +713,7 @@ main
 
                 & .number
                 {
-                    margin: -2% 0 0 1%;
+                    margin: -2.5% 0 0 1%;
                     width: 3%;
                 }
              
@@ -750,7 +745,9 @@ main
 
                     & .badge
                     {
-                        right: 0;
+                        z-index: 1;
+                        left: 30%;
+                        width: 88px;
 
                         
                     }
@@ -804,6 +801,7 @@ main
 
 }
 
+
 footer
 {
     padding-bottom: 54px;
@@ -834,12 +832,8 @@ footer
 }
 
 
-  
 
-
-   
-
-
+}
 }
  
 

@@ -1,27 +1,19 @@
 @keyframes progress-menu
 {
-    0%{ 
-            transform: translatY (200px);
+    0%{ transform: translateY (200px);
             opacity: 0;
         }
     
-    100%{
-            transform: translatY(50px);
-            opacity: 1;
-            
-        }
+    100%{transform: translateY(50px);
+            opacity: 1;}
 
 }
 
 @keyframes rotate {
 
-  from  { transform: rotate(0deg);
+  from { transform: rotate(0deg);}
 
-  }
-
-  to{
-    transform: rotate(-360deg);
-  }
+  to {transform: rotate(-360deg);}
     
 }
 
@@ -66,22 +58,23 @@ body
             justify-content: space-around;
             margin-right: 21%;
 
-        & a 
-        {
-
-            text-decoration: none;
-            color: black;
-
-            & i 
+            & a 
             {
-                margin-top: 42px;
-                margin-bottom: 29px;
-                display: grid;
-                place-items: center;
-                margin-right: 19%;
 
+                text-decoration: none;
+                color: black;
+
+                & i 
+                {
+                    margin-top: 42px;
+                    margin-bottom: 29px;
+                    display: grid;
+                    place-items: center;
+                    margin-right: 19%;
+
+                }
+       
             }
-        }
     
 
         }
@@ -161,14 +154,14 @@ body
 
 
                 & .titr
-                    {
-                        font-size: 200%;
-                        font-weight: bolder;
-                        font-style: italic;
-                        font-family:"shrikhand",cursive;
-                        margin-left: 2%;
+                {
+                    font-size: 200%;
+                    font-weight: bolder;
+                    font-style: italic;
+                    font-family:"shrikhand",cursive;
+                    margin-left: 2%;
                     
-                    }
+                }
     
 
             }
@@ -198,7 +191,7 @@ body
                 {
                     margin-bottom: 5%;
 
-                animation: retarde 3s ease-in-out;
+                    animation: retarde 3s ease-in-out;
                     
 
 
@@ -217,10 +210,6 @@ body
                             border-radius: 21px;
                             height: 100%;
                             overflow: hidden;
-
-                            
-
-                          
 
                             
 
@@ -276,11 +265,14 @@ body
                                 
                                     & .checkm
                                     {
-                                        color: white;
+                                        color: #99E2D0;
                                         margin-right: 1%;
                                         margin-top: 5%;
-                                       
                                         justify-content: center;
+                                        background-color: white;
+                                        border-radius: 15px;
+                                        padding: 3px;
+                                       
 
                                       
                                     }
@@ -336,6 +328,7 @@ body
                     font-size: 100%;
                     color: white;
                     border-radius: 20px;
+                    border: none;
                     
 
                 }
@@ -580,24 +573,33 @@ main
                 }
             }
 
-                & .cardn
-                {
+            & .cardn
+            {
                     margin-bottom: 5%;
                     width: 32%;
                     margin-left: 2%;
 
+            }
+
+            &.bouton
+            {
+                &.commande
+                {
+                    font-size: 200%;
                 }
+            }
+
             
 
 
-            }
+        }
 
     
 
     }
 
 
-}
+
 
 footer
 {
@@ -668,4 +670,6 @@ footer
 
 }
 
+
+}
 }
