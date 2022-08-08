@@ -189,12 +189,13 @@ body main .contenu .cardsresto .bouton {
 body main .contenu .cardsresto .bouton .commande {
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
   border-radius: 10px;
-  padding: 1%;
-  width: 35%;
-  font-size: 100%;
+  font-size: 25px;
   color: white;
   border-radius: 20px;
   border: none;
+  margin-bottom: 5%;
+  padding: 1%;
+  width: 50%;
 }
 body footer {
   background-color: rgb(81, 80, 80);
@@ -236,36 +237,39 @@ body footer .finpage .legal .textp, body footer .finpage .legal p {
   body main .img {
     height: 396px;
   }
-  body main .coeur .Note .cardh {
+  body main .contenu .coeur .Note .cardh {
     cursor: pointer;
     width: 17px;
     height: 21px;
     margin-top: 5%;
     margin-right: 13%;
   }
-  body main .coeur .Note .cardh i {
+  body main .contenu .coeur .Note .cardh i {
     position: absolute;
     font-size: 25px;
   }
-  body main .coeur .Note .cardh .active {
+  body main .contenu .coeur .Note .cardh .active {
     background-color: #9356DC;
     color: transparent;
     opacity: 0;
     background-image: linear-gradient(#FF79DA, #9356DC);
     background-clip: text;
   }
-  body main .coeur .Note .cardh:active .iconh {
+  body main .contenu .coeur .Note .cardh:active .iconh {
     opacity: 0;
   }
-  body main .coeur .Note .cardh:active .active {
+  body main .contenu .coeur .Note .cardh:active .active {
     opacity: 1;
   }
-  body main .cardsresto .card a .prix .price, body main .cardsresto .cardn a .prix .price {
+  body main .contenu.soust {
+    font-size: 30px;
+  }
+  body main .contenu .cardsresto .card a .prix .price, body main .contenu .cardsresto .cardn a .prix .price {
     margin-top: 33px;
     margin-left: 375px;
     font-size: 27px;
   }
-  body main .bouton {
+  body main .contenu .bouton {
     border-radius: 35px;
     font-size: 30px;
   }
@@ -303,9 +307,6 @@ body footer .finpage .legal .textp, body footer .finpage .legal p {
     margin-bottom: 5%;
     width: 32%;
     margin-left: 2%;
-  }
-  body main .contenu .cardsresto.bouton.commande {
-    font-size: 200%;
   }
   body main footer {
     background-color: rgb(81, 80, 80);

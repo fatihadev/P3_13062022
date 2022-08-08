@@ -314,27 +314,28 @@ body
 
 
 
-            .bouton
-            {   
-                display: flex;
-                justify-content: center;
+                .bouton
+                {   
+                    display: flex;
+                    justify-content: center;
 
-                .commande
-                {
-                    background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-                    border-radius: 10px;
-                    padding: 1%;
-                    width: 35%;
-                    font-size: 100%;
-                    color: white;
-                    border-radius: 20px;
-                    border: none;
-                    
+                    .commande
+                    {
+                        background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
+                        border-radius: 10px;
+                        font-size: 25px;
+                        color: white;
+                        border-radius: 20px;
+                        border: none;
+                        margin-bottom: 5%;
+                        padding: 1%;
+                        width: 50%;
+                        
+
+                    }
+
 
                 }
-
-
-            }
         }
 
 }
@@ -405,6 +406,7 @@ footer
 @media screen and (max-width: 992px) and (min-width: 768px)
 {
 
+
 main 
 {
     .img
@@ -412,54 +414,67 @@ main
         height: 396px;
     }
 
-    & .coeur
+    .contenu
     {
 
-        & .Note
-    
-        { 
-            
-            & .cardh
-            {
-                cursor: pointer;
-                width: 17px;
-                height: 21px;
-                margin-top: 5%;
-                margin-right: 13%;
         
-                & i
-                {
-                    position: absolute;
-                    font-size: 25px;
-                }
+        & .coeur
+        {
 
+            & .Note
+        
+            { 
+                
+                & .cardh
+                {
+                    cursor: pointer;
+                    width: 17px;
+                    height: 21px;
+                    margin-top: 5%;
+                    margin-right: 13%;
             
-                & .active
-                {   
-                    background-color: #9356DC;
-                    color: transparent;
-                    opacity: 0;
-                    background-image: linear-gradient(#FF79DA, #9356DC);
-                    background-clip: text;
-                   
+                    & i
+                    {
+                        position: absolute;
+                        font-size: 25px;
+                    }
+
+                
+                    & .active
+                    {   
+                        background-color: #9356DC;
+                        color: transparent;
+                        opacity: 0;
+                        background-image: linear-gradient(#FF79DA, #9356DC);
+                        background-clip: text;
+                    
+                    }
+
+                    &:active .iconh
+                    {
+                        opacity: 0;
+                    }
+
+
+                    &:active .active
+                    {
+                        opacity: 1;
+                    }
+
                 }
-
-                &:active .iconh
-                {
-                    opacity: 0;
-                }
-
-
-                &:active .active
-                {
-                    opacity: 1;
-                }
-
             }
+
+    
+
+        }
+
+        &.soust
+        {
+            font-size: 30px;
         }
 
 
-    } 
+    
 
    
 
@@ -493,9 +508,12 @@ main
     {
         border-radius: 35px;
         font-size: 30px;
+        
     }
 
+    
 }
+} 
 }
 
 
@@ -581,11 +599,11 @@ main
 
             }
 
-            &.bouton
+            .bouton
             {
                 &.commande
                 {
-                    font-size: 200%;
+                   
                 }
             }
 

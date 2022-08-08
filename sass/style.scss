@@ -691,6 +691,7 @@ main
         & .explore
         {
             width: 27%;
+            margin-left: 35%;
         }
     }
 
@@ -704,6 +705,7 @@ main
         & .btnfonct
         {   
             display: flex;
+            margin-right: 5%;
 
             & .one, .two, .three
             {   
@@ -738,7 +740,7 @@ main
 
             & .card
             {
-                
+                height: 360px;
 
                 & a
                 {
@@ -778,7 +780,7 @@ main
             
             & .card
             {
-                height: 460px;
+                height: 360px;
             }
 
             & .textimg

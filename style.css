@@ -358,12 +358,14 @@ footer .finpage .legal .textp, footer .finpage .legal p {
   }
   body main .reserv .explore {
     width: 27%;
+    margin-left: 35%;
   }
   body main .fonctionnement h1 {
     margin-left: 2%;
   }
   body main .fonctionnement .btnfonct {
     display: flex;
+    margin-right: 5%;
   }
   body main .fonctionnement .btnfonct .one, body main .fonctionnement .btnfonct .two, body main .fonctionnement .btnfonct .three {
     margin-left: 2%;
@@ -374,6 +376,9 @@ footer .finpage .legal .textp, footer .finpage .legal p {
   }
   body main #restaurants .row1 {
     display: flex;
+  }
+  body main #restaurants .row1 .card {
+    height: 360px;
   }
   body main #restaurants .row1 .card a .badge {
     z-index: 1;
@@ -391,7 +396,7 @@ footer .finpage .legal .textp, footer .finpage .legal p {
     display: flex;
   }
   body main #restaurants .row2 .card {
-    height: 460px;
+    height: 360px;
   }
   body main #restaurants .row2 .textimg .content {
     font-size: 19px;
