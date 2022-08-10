@@ -45,7 +45,7 @@ body
         font-family:"shrikhand",cursive;
         text-align: center;
         font-size: 112%;
-        font-weight: 2000;
+        font-weight: bolder;
         font-style: italic;
         position: relative;
         box-shadow: 0 0 0.5rem rgb(213, 211, 211);
@@ -87,9 +87,10 @@ body
     {
         .img
         {
+            object-fit: cover;
             width: 100%;
             height: 250px;
-            object-fit: cover;
+            
         }
 
         .contenu
@@ -130,12 +131,13 @@ body
                     
                         & .active
                         {   
+                            -webkit-background-clip: text;
                             background-color: #9356DC;
                             color: transparent;
                             opacity: 0;
                             background-image: linear-gradient(#FF79DA, #9356DC);
                             background-clip: text;                          
-                            -webkit-background-clip: text;
+                            
                            
                         }
 

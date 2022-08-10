@@ -9,7 +9,7 @@ body header {
   font-family: "shrikhand", cursive;
   text-align: center;
   font-size: 200%;
-  font-weight: 2000;
+  font-weight: bolder;
   font-style: italic;
   position: relative;
   box-shadow: 0 0 0.5rem rgb(213, 211, 211);
@@ -42,7 +42,6 @@ body main .reserv h2 {
 }
 body main .reserv .explore {
   font-size: 130%;
-  background: explore-gradient #9356DC;
   border-radius: 49px;
   height: 45px;
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
@@ -144,7 +143,7 @@ body main #restaurants .row1 .card a .textimg .content {
 }
 body main #restaurants .row1 .card a .textimg .content h2 {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 body main #restaurants .row1 .card a .textimg .content p {
   font-size: 19px;
@@ -215,7 +214,7 @@ body main #restaurants .row2 .card a .textimg .content {
 }
 body main #restaurants .row2 .card a .textimg .content h2 {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 body main #restaurants .row2 .card a .textimg .content p {
   font-size: 19px;

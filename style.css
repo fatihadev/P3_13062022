@@ -47,7 +47,7 @@ body header {
   font-family: "shrikhand", cursive;
   text-align: center;
   font-size: 200%;
-  font-weight: 2000;
+  font-weight: bolder;
   font-style: italic;
   position: relative;
   box-shadow: 0 0 0.5rem rgb(213, 211, 211);
