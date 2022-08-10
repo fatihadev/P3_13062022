@@ -80,7 +80,6 @@ body main .reserv h2 {
 }
 body main .reserv .explore {
   font-size: 130%;
-  background: explore-gradient #9356DC;
   border-radius: 49px;
   height: 45px;
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
@@ -160,14 +159,16 @@ body main #restaurants .row1 .card a {
   font-size: 23px;
 }
 body main #restaurants .row1 .card a .badge {
-  background-color: #99E2D0;
-  color: black;
-  padding: 4px 8px;
-  text-align: center;
-  border-radius: 5px;
   position: absolute;
+  background-color: #99E2D0;
+  color: rgb(59, 145, 59);
+  font-weight: bold;
+  width: 18%;
+  padding: 3px 12px;
+  text-align: center;
+  border-radius: 2px;
   margin-top: 3%;
-  right: 10%;
+  margin-left: 65%;
 }
 body main #restaurants .row1 .card a .img {
   width: 100%;
@@ -185,7 +186,7 @@ body main #restaurants .row1 .card a .textimg .content {
 }
 body main #restaurants .row1 .card a .textimg .content h2 {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 body main #restaurants .row1 .card a .textimg .content p {
   font-size: 19px;
@@ -205,6 +206,7 @@ body main #restaurants .row1 .card a .textimg .cardh .active {
   opacity: 0;
   background-image: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
+  -webkit-background-clip: text;
 }
 body main #restaurants .row1 .card a .textimg .cardh:active .iconh {
   opacity: 0;
@@ -234,11 +236,16 @@ body main #restaurants .row2 .card a {
   font-size: 13px;
 }
 body main #restaurants .row2 .card a .badge {
+  position: absolute;
   background-color: #99E2D0;
-  color: black;
+  color: rgb(59, 145, 59);
+  font-weight: bold;
+  width: 18%;
   padding: 4px 8px;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 2px;
+  margin-top: 3%;
+  right: 10%;
 }
 body main #restaurants .row2 .card a .img {
   width: 100%;
@@ -255,7 +262,7 @@ body main #restaurants .row2 .card a .textimg .content {
 }
 body main #restaurants .row2 .card a .textimg .content h2 {
   margin: 0;
-  padding: none;
+  padding: 0;
 }
 body main #restaurants .row2 .card a .textimg .content p {
   font-size: 19px;
@@ -309,7 +316,10 @@ footer .finpage .iconf .fas {
 footer .finpage .legal {
   margin-left: 5%;
 }
-footer .finpage .legal .textp, footer .finpage .legal p {
+footer .finpage .legal a {
+  text-decoration: none;
+}
+footer .finpage .legal a .textp, footer .finpage .legal a p {
   margin-bottom: 0;
   color: white;
   text-decoration: none;
@@ -339,15 +349,14 @@ footer .finpage .legal .textp, footer .finpage .legal p {
     display: flex;
   }
   body main #restaurants .row1 .card a .badge {
-    right: 0;
-    margin-left: 15px;
-    margin-right: 62%;
+    margin-left: 22%;
+    width: 10%;
   }
   body main #restaurants .row2 {
     display: flex;
   }
   body main #restaurants .row2 .card a .badge {
-    color: white;
+    width: 10%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -381,9 +390,9 @@ footer .finpage .legal .textp, footer .finpage .legal p {
     height: 360px;
   }
   body main #restaurants .row1 .card a .badge {
-    z-index: 1;
-    left: 30%;
-    width: 88px;
+    margin-left: 23%;
+    width: 9%;
+    margin-top: 2%;
   }
   body main #restaurants .row1 .card .textimg .content {
     font-size: 19px;

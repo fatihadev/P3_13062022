@@ -142,7 +142,6 @@ main
         & .explore 
         {
             font-size: 130%;
-            background: explore-gradient#9356DC;
             border-radius: 49px;
             height: 45px;
             background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
@@ -261,16 +260,17 @@ main
 
                     & .badge 
                     {
-                        background-color: #99E2D0;
-                        color: black;
-                        padding: 4px 8px;
-                        text-align: center;
-                        border-radius: 5px;
                         position: absolute;
+                        background-color: #99E2D0;
+                        color: rgb(59, 145, 59);
+                        font-weight: bold;
+                        width: 18%;
+                        padding: 3px 12px;
+                        text-align: center;
+                        border-radius: 2px;
                         margin-top: 3%;
-                        right: 10%;
+                        margin-left: 65%;
 
-                        
                 
                     }
             
@@ -298,7 +298,7 @@ main
                                     & h2 
                                     {
                                         margin: 0;
-                                        padding: none;
+                                        padding: 0;
                                 
                                         
                                     }
@@ -332,6 +332,8 @@ main
                                     opacity: 0;
                                     background-image: linear-gradient(#FF79DA, #9356DC);
                                     background-clip: text;
+                                    
+                                    -webkit-background-clip: text;
                                    
                                 }
 
@@ -391,11 +393,22 @@ main
     
                         & .badge 
                         {
+                            // background-color: #99E2D0;
+                            // color: black;
+                            // padding: 4px 8px;
+                            // text-align: center;
+                            // border-radius: 5px;
+                            
+                            position: absolute;
                             background-color: #99E2D0;
-                            color: black;
+                            color: rgb(59, 145, 59);
+                            font-weight: bold;
+                            width: 18%;
                             padding: 4px 8px;
                             text-align: center;
-                            border-radius: 5px;
+                            border-radius: 2px;
+                            margin-top: 3%;
+                            right: 10%;
                     
                         }
                 
@@ -424,7 +437,7 @@ main
                                         & h2 
                                         {
                                             margin: 0;
-                                            padding: none;
+                                            padding: 0;
                                     
                                             
                                         }
@@ -529,11 +542,17 @@ footer
             {
                 margin-left: 5%;
 
-                & .textp, p
+                & a
                 {
-                    margin-bottom: 0;
-                    color: white;
                     text-decoration: none;
+                
+
+                    & .textp, p
+                    {
+                        margin-bottom: 0;
+                        color: white;
+                        text-decoration: none;
+                    }
                 }
             }
 
@@ -610,10 +629,8 @@ main
 
                     & .badge
                     {
-                        right: 0;
-                        margin-left: 15px;
-                        margin-right: 62%;
-                        
+                        margin-left: 22%;
+                        width: 10%
                     }
                         
                 }
@@ -635,7 +652,7 @@ main
                         & .badge
                         {
                             
-                           color: white; 
+                            width: 10%;
                           
                           
                         }
@@ -747,11 +764,10 @@ main
 
                     & .badge
                     {
-                        z-index: 1;
-                        left: 30%;
-                        width: 88px;
-
-                        
+                    
+                        margin-left: 23%;
+                        width: 9%;
+                        margin-top: 2%;
                     }
                     
                 }
@@ -781,6 +797,15 @@ main
             & .card
             {
                 height: 360px;
+
+                & a 
+                {
+
+                    &.badge
+                    {
+
+                    }
+                }
             }
 
             & .textimg
@@ -820,6 +845,8 @@ footer
         & .legal
         {
             display: flex;
+
+        
 
             & .textp
            {
