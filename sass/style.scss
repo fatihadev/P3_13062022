@@ -190,6 +190,12 @@ main
             & i 
             {
                 margin-left: 5%;
+                color: grey;
+
+                &:hover
+                {
+                    color: #8e31ff;
+                }
             }
 
             & .number
@@ -209,7 +215,7 @@ main
 
             &:hover 
             {
-                background-color: #be98ec;
+                background-color: #d1b7f0;
             }
         }
         

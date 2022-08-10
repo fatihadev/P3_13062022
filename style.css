@@ -114,6 +114,10 @@ body main .btnfonct .one, body main .btnfonct .two, body main .btnfonct .three {
 }
 body main .btnfonct .one i, body main .btnfonct .two i, body main .btnfonct .three i {
   margin-left: 5%;
+  color: grey;
+}
+body main .btnfonct .one i:hover, body main .btnfonct .two i:hover, body main .btnfonct .three i:hover {
+  color: #8e31ff;
 }
 body main .btnfonct .one .number, body main .btnfonct .two .number, body main .btnfonct .three .number {
   background-color: #9356DC;
@@ -128,7 +132,7 @@ body main .btnfonct .one .number, body main .btnfonct .two .number, body main .b
   margin: 0.3% 0 0 -65%;
 }
 body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
-  background-color: #be98ec;
+  background-color: #d1b7f0;
 }
 body main #restaurants {
   background-color: rgb(217, 216, 216);
