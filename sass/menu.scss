@@ -141,13 +141,13 @@ body
                            
                         }
 
-                        &:active .iconh
+                        &:hover .iconh
                         {
                             opacity: 0;
                         }
 
 
-                        &:active .active
+                        &:hover .active
                         {
                             opacity: 1;
                         }
@@ -230,6 +230,13 @@ body
                                     text-overflow: ellipsis;
 
                             
+                                }
+
+                                & p 
+                                {
+                                    overflow: hidden;
+                                    white-space: nowrap;
+                                    text-overflow: ellipsis;
                                 }
 
                                 
@@ -529,6 +536,8 @@ main
 }
 
 
+
+
 @media screen and (min-width:992px) 
 {
 
@@ -537,7 +546,7 @@ main
 
     .img
     {
-        height: 502px;
+        height: 251px;
     }
     
     .contenu
@@ -649,8 +658,8 @@ footer
         {
             
             justify-content: space-between;
-            width: 70%;
-            margin-left: 2%;
+            width: 50%;
+            margin-left: 4%;
             display: flex;
             
             & .iconf
@@ -668,7 +677,7 @@ footer
                 p 
                 {
                     margin: 0;
-                    width: 320px;
+                    width: 208px;
 
                 }
 
@@ -683,9 +692,9 @@ footer
                 & .textp, p
                 {
                     margin-bottom: 0;
-                    margin-top: 8px;
+                    margin-top: 2px;
                     margin-left: -5%;
-                    width: 386px;
+                    width: 204px;
                     color: white;
                     text-decoration: none;
                   
