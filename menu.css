@@ -319,16 +319,19 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     color: white;
     width: 100%;
     padding-top: 5%;
+    display: grid;
+    place-items: center;
   }
   body main footer h1 {
     font-family: "shrikhand", cursive;
     font-size: 30px;
-    margin: 0 0 0 5%;
+    margin: 0;
+    padding-bottom: 1%;
   }
   body main footer .finpage {
     justify-content: space-between;
     width: 50%;
-    margin-left: 4%;
+    margin-left: 0;
     display: flex;
   }
   body main footer .finpage .iconf {
@@ -344,17 +347,61 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     width: 208px;
   }
   body main footer .finpage .legal {
-    margin-left: 5%;
+    margin-left: 0%;
     padding-bottom: 8%;
     display: flex;
   }
   body main footer .finpage .legal .textp, body main footer .finpage .legal p {
     margin-bottom: 0;
     margin-top: 2px;
-    margin-left: -5%;
-    width: 204px;
+    margin-left: 0%;
+    width: 163px;
     color: white;
     text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  body main .contenu .cardsresto .bouton .commande {
+    background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 5%;
+    padding: 1%;
+    width: 60%;
+  }
+  body footer .finpage {
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 2%;
+  }
+  body footer .finpage .iconf {
+    display: flex;
+    font-size: 13px;
+  }
+  body footer .finpage .iconf .fas {
+    margin-top: 8px;
+  }
+  body footer .finpage .iconf p {
+    margin-top: 5px;
+  }
+  body footer .finpage .legal {
+    margin-left: 5%;
+  }
+  body footer .finpage .legal p {
+    margin-top: 9px;
+  }
+  body footer .finpage .legal a {
+    text-decoration: none;
+  }
+  body footer .finpage .legal a .textp {
+    margin-bottom: 0;
+    color: white;
+    text-decoration: none;
+    margin-top: 1px;
   }
 }
 
