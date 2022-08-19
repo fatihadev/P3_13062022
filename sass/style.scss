@@ -1408,6 +1408,7 @@ footer
     color: white;
     width: 100%;
     padding-top: 5%;
+    padding-bottom: 5%;
 
         h1 
         {
@@ -1430,7 +1431,15 @@ footer
                 & .fas
                 {
                     margin-left: 13px;
-                    margin-top: 1px;
+                    margin-top: 0;
+                   
+                }
+
+                & p 
+                {   
+                    margin-top: 0;
+                    margin-bottom: 0;
+
                 }
 
             }
@@ -1439,22 +1448,27 @@ footer
             {
                 margin-left: 5%;
 
-                p 
-                {
-                    margin: 1px;
-                }
+              & p 
+              {
+                margin: 0;
+              }
 
                 & a
                 {
                     text-decoration: none;
-                
 
-                    & .textp
+
+                    & .textp, p
                     {
-                        margin-bottom: 0;
+                        
                         color: white;
                         text-decoration: none;
+                        margin-bottom: 0;
                     }
+
+                
+
+
                 }
             }
 
