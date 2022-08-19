@@ -64,7 +64,7 @@ body main .city {
 }
 body main .city i {
   font-size: 130%;
-  padding-left: 27px;
+  padding-left: 76px;
   padding-bottom: 2%;
 }
 body main .city input {
@@ -307,6 +307,7 @@ footer {
   color: white;
   width: 100%;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
 footer h1 {
   font-family: "shrikhand", cursive;
@@ -315,26 +316,34 @@ footer h1 {
 }
 footer .finpage {
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin-left: 2%;
 }
 footer .finpage .iconf {
   display: flex;
 }
 footer .finpage .iconf .fas {
-  margin: 5%;
+  margin-left: 13px;
+  margin-top: 0;
+}
+footer .finpage .iconf p {
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 0;
 }
 footer .finpage .legal {
-  margin-left: -6%;
-  justify-content: space-between;
+  margin-left: 5%;
+}
+footer .finpage .legal p {
+  margin: 0;
 }
 footer .finpage .legal a {
   text-decoration: none;
 }
 footer .finpage .legal a .textp, footer .finpage .legal a p {
-  margin-bottom: 0;
   color: white;
   text-decoration: none;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -575,7 +584,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     color: white;
     position: absolute;
     padding: 0.1%;
-    margin: 0.3% 0 0 -65%;
+    margin: -0.5% 0 0 -65%;
   }
   body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
     background-color: #d1b7f0;

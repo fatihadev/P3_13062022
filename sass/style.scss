@@ -120,7 +120,7 @@ main
         & i
         {
             font-size: 130%;
-            padding-left: 27px;
+            padding-left: 76px;
             padding-bottom: 2%;  
         }
 
@@ -521,13 +521,13 @@ main
 }
 }
 
-
 footer
 {
     background-color: rgb(81, 80, 80);
     color: white;
     width: 100%;
     padding-top: 5%;
+    padding-bottom: 5%;
 
         h1 
         {
@@ -540,7 +540,7 @@ footer
         {
             
             justify-content: space-between;
-            width: 70%;
+            width: 80%;
             margin-left: 2%;
             
             & .iconf
@@ -549,28 +549,46 @@ footer
 
                 & .fas
                 {
-                    margin: 5%;
+                    margin-left: 13px;
+                    margin-top: 0;
+                   
+                }
+
+                & p 
+                {   
+                    margin-bottom: 5px;
+                    margin-left: 5px;
+                    margin-top: 0;
+
                 }
 
             }
 
             & .legal
             {
-                
-                margin-left: -6%;
-justify-content: space-between;
+                margin-left: 5%;
+
+              & p 
+              {
+                margin: 0;
+              }
 
                 & a
                 {
                     text-decoration: none;
-                
+
 
                     & .textp, p
                     {
-                        margin-bottom: 0;
+                        
                         color: white;
                         text-decoration: none;
+                        margin-bottom: 0;
                     }
+
+                
+
+
                 }
             }
 
@@ -1103,7 +1121,7 @@ main
                 color: white;
                 position: absolute;
                 padding: 0.1%;
-                margin: 0.3% 0 0 -65%;
+                margin: -0.5% 0 0 -65%;
                 
             }
 
