@@ -362,4 +362,47 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   }
 }
 
+@media screen and (max-width: 300px) {
+  footer {
+    background-color: rgb(81, 80, 80);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
+    top: 194%;
+  }
+  footer h1 {
+    font-family: "shrikhand", cursive;
+    font-size: 30px;
+    margin: 0 0 0 5%;
+  }
+  footer .finpage {
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 2%;
+  }
+  footer .finpage .iconf {
+    display: flex;
+  }
+  footer .finpage .iconf .fas {
+    margin-left: 6%;
+    margin-top: 1%;
+    margin-right: 3%;
+  }
+  footer .finpage .iconf p {
+    margin: 0;
+  }
+  footer .finpage .legal {
+    margin-left: 5%;
+    padding-bottom: 8%;
+  }
+  footer .finpage .legal a {
+    text-decoration: none;
+  }
+  footer .finpage .legal a .textp, footer .finpage .legal a p {
+    margin-bottom: 0;
+    margin-top: 8px;
+    color: white;
+  }
+}
+
 /*# sourceMappingURL=menu.css.map */

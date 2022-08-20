@@ -712,3 +712,80 @@ footer
 
 }
 }
+
+    
+@media screen and (max-width:300px) 
+
+{
+
+    
+footer
+{
+    background-color: rgb(81, 80, 80);
+    color: white;
+    width: 100%;
+    padding-top: 5%;
+    top: 194%;  
+
+        h1 
+        {
+            font-family:"shrikhand",cursive;
+            font-size: 30px;
+            margin: 0 0 0 5%;
+        }
+
+        .finpage
+        {
+            
+            justify-content: space-between;
+            width: 80%;
+            margin-left: 2%;
+            
+            & .iconf
+            {
+                display: flex;
+
+                & .fas
+                {
+                    margin-left: 6%;
+                    margin-top: 1%;
+                    margin-right: 3%;
+                    
+                }
+
+                p 
+                {
+                    margin: 0;
+                }
+
+            }
+
+            & .legal
+            {
+                margin-left: 5%;
+                padding-bottom: 8%;
+
+                & a 
+                {
+                        text-decoration: none;
+                
+
+                    & .textp, p
+                    {
+                        margin-bottom: 0;
+                        margin-top: 8px;
+                        color: white;
+                    }
+                
+
+                }
+
+             
+            }
+
+        }
+
+
+}
+    
+}

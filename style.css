@@ -511,6 +511,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     padding-top: 20px;
     background-color: rgb(232, 232, 232);
     display: flex;
+    justify-content: flex-end;
   }
   body main .city i {
     font-size: 15px;
