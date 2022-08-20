@@ -321,48 +321,29 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     width: 32%;
     margin-left: 2%;
   }
-  body main footer {
-    background-color: rgb(81, 80, 80);
-    color: white;
-    width: 100%;
-    padding-top: 5%;
-  }
   body main footer h1 {
-    font-family: "shrikhand", cursive;
-    font-size: 30px;
-    margin: 0 0 0 5%;
     display: grid;
-    justify-content: center;
+    place-items: center;
   }
   body main footer .finpage {
-    justify-content: space-between;
-    width: 50%;
-    margin-left: 4%;
     display: flex;
-    margin-left: 15%;
+    display: flex;
+    margin-left: 11%;
+    margin-top: 2%;
   }
   body main footer .finpage .iconf {
-    display: flex;
-  }
-  body main footer .finpage .iconf .fas {
-    margin-left: 6%;
-    margin-top: 1%;
-    margin-right: 3%;
-  }
-  body main footer .finpage .iconf p {
-    margin: 0;
-    width: 208px;
+    width: 246px;
   }
   body main footer .finpage .legal {
-    margin-left: 5%;
-    padding-bottom: 8%;
     display: flex;
   }
-  body main footer .finpage .legal .textp, body main footer .finpage .legal p {
-    margin-bottom: 0;
-    margin-top: 2px;
-    margin-left: -5%;
-    width: 204px;
+  body main footer .finpage .legal p {
+    margin-right: 5%;
+    width: 166px;
+    margin-top: 0;
+  }
+  body main footer .finpage .legal .textp {
+    margin-left: 91px;
     color: white;
     text-decoration: none;
   }
