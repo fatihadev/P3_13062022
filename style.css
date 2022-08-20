@@ -1,6 +1,9 @@
 html {
   font-family: "Roboto", sans-serif;
 }
+html h2 {
+  font-family: "shrikhand", "sans-serif";
+}
 
 body {
   margin: 0 0 0 0;
@@ -45,7 +48,7 @@ body .loading::before {
   }
 }
 body header {
-  font-family: "shrikhand", cursive;
+  font-family: "shrikhand", "sans-serif";
   text-align: center;
   font-size: 200%;
   font-weight: bolder;
@@ -409,7 +412,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main .fonctionnement .btnfonct .one .number, body main .fonctionnement .btnfonct .two .number, body main .fonctionnement .btnfonct .three .number {
     margin: -2.5% 0 0 1%;
     width: 3%;
-    border-radius: 11px;
+    border-radius: 30px;
   }
   body main #restaurants .row1 {
     display: flex;
