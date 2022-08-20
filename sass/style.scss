@@ -777,6 +777,7 @@ main
                 {
                     margin: -2.5% 0 0 1%;
                     width: 3%;
+                    border-radius: 11px;
                 }
              
             }
@@ -892,7 +893,8 @@ footer
     {
         display: flex;
         display: flex;
-        margin-left: 15%;
+        margin-left: 11%;
+        margin-top: 2%;
 
         & .iconf 
         {

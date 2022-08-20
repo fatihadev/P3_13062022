@@ -409,6 +409,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main .fonctionnement .btnfonct .one .number, body main .fonctionnement .btnfonct .two .number, body main .fonctionnement .btnfonct .three .number {
     margin: -2.5% 0 0 1%;
     width: 3%;
+    border-radius: 11px;
   }
   body main #restaurants .row1 {
     display: flex;
@@ -454,7 +455,8 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body footer .finpage {
     display: flex;
     display: flex;
-    margin-left: 15%;
+    margin-left: 11%;
+    margin-top: 2%;
   }
   body footer .finpage .iconf {
     width: 246px;
