@@ -713,19 +713,50 @@ footer
 }
 }
 
-    
-@media screen and (max-width:300px) 
+ 
+@media screen and (max-width:300px)
 
 {
 
-    
+body 
+{
+    main 
+    {
+        .contenu 
+        {
+            .cardsresto
+            {
+
+            
+
+                .bouton
+                {   
+                    display: flex;
+                    justify-content: center;
+
+                    .commande
+                    {
+                    
+                        width: 70%;
+                        
+
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+ 
 footer
 {
     background-color: rgb(81, 80, 80);
     color: white;
     width: 100%;
     padding-top: 5%;
-    top: 194%;  
+    padding-bottom: 5%;
 
         h1 
         {
@@ -738,24 +769,27 @@ footer
         {
             
             justify-content: space-between;
-            width: 80%;
+            
             margin-left: 2%;
             
             & .iconf
             {
                 display: flex;
+                width: 204px;
 
                 & .fas
                 {
-                    margin-left: 6%;
-                    margin-top: 1%;
-                    margin-right: 3%;
-                    
+                    margin-left: 13px;
+                    margin-top: 0;
+                   
                 }
 
-                p 
-                {
-                    margin: 0;
+                & p 
+                {   
+                    margin-top: 0;
+                    margin-bottom: 0;
+                    width: 90%;
+
                 }
 
             }
@@ -763,28 +797,32 @@ footer
             & .legal
             {
                 margin-left: 5%;
-                padding-bottom: 8%;
 
-                & a 
+              & p 
+              {
+                margin: 0;
+              }
+
+                & a
                 {
-                        text-decoration: none;
-                
+                    text-decoration: none;
+
 
                     & .textp, p
                     {
-                        margin-bottom: 0;
-                        margin-top: 8px;
+                        
                         color: white;
+                        text-decoration: none;
+                        margin-bottom: 0;
                     }
+
                 
 
-                }
 
-             
+                }
             }
 
         }
-
 
 }
     

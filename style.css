@@ -368,6 +368,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row1 {
     display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 0;
   }
   body main #restaurants .row1 .card a .badge {
     margin-left: 22%;
@@ -375,6 +378,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row2 {
     display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 0;
   }
   body main #restaurants .row2 .card a .badge {
     width: 10%;
@@ -434,6 +440,10 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body footer {
     padding-bottom: 54px;
+  }
+  body footer h1 {
+    display: grid;
+    place-items: center;
   }
   body footer .finpage {
     display: flex;
@@ -764,6 +774,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   footer .finpage .iconf {
     display: flex;
+    width: 224px;
   }
   footer .finpage .iconf .fas {
     margin-left: 13px;
