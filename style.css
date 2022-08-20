@@ -412,6 +412,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row1 {
     display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 0;
   }
   body main #restaurants .row1 .card {
     height: 360px;
@@ -430,6 +433,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row2 {
     display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-right: 0;
   }
   body main #restaurants .row2 .card {
     height: 360px;
@@ -447,15 +453,22 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body footer .finpage {
     display: flex;
+    display: flex;
+    margin-left: 15%;
   }
   body footer .finpage .iconf {
-    width: 320px;
+    width: 246px;
   }
   body footer .finpage .legal {
     display: flex;
   }
+  body footer .finpage .legal p {
+    margin-right: 5%;
+    width: 166px;
+    margin-top: 0;
+  }
   body footer .finpage .legal .textp {
-    margin-left: 432%;
+    margin-left: 91px;
     color: white;
     text-decoration: none;
   }

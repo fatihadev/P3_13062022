@@ -795,9 +795,10 @@ main
         { 
            
             display: flex;
+            justify-content: space-between;
+            margin-left: 9%;
+            margin-right: 0;
             
-
-
 
             & .card
             {
@@ -835,7 +836,11 @@ main
 
         & .row2
         {
+            
             display: flex;
+            justify-content: space-between;
+            margin-left: 9%;
+            margin-right: 0;
 
             
             & .card
@@ -886,11 +891,12 @@ footer
     .finpage
     {
         display: flex;
-        margin-left: 16%;
+        display: flex;
+        margin-left: 15%;
 
         & .iconf 
         {
-            width: 320px;
+            width: 246px;
         }
 
         & .legal
@@ -898,14 +904,22 @@ footer
             display: flex;
 
         
+            & p 
+            {
+                margin-right: 5%;
+                width: 166px;
+                margin-top: 0;
+            }
 
             & .textp
            {
-            margin-left: 432%;
+            margin-left: 91px;
             color: white;
             text-decoration: none;
             
            }
+
+
         }
     }
 
