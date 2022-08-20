@@ -119,6 +119,9 @@ body main .contenu .soust {
   width: 41px;
   margin-left: 2%;
 }
+body main .contenu .entre {
+  margin-left: 0.5%;
+}
 body main .contenu .cardsresto {
   margin-left: 4%;
   margin-right: 5%;
@@ -343,7 +346,7 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     margin-top: 0;
   }
   body main footer .finpage .legal .textp {
-    margin-left: 91px;
+    margin-top: 0;
     color: white;
     text-decoration: none;
   }
