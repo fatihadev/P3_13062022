@@ -116,7 +116,7 @@ body main .contenu .coeur .titr {
 body main .contenu .soust {
   font-size: 110%;
   border-bottom: 4px solid #99E2D0;
-  width: 10%;
+  width: 41px;
   margin-left: 2%;
 }
 body main .contenu .cardsresto {
@@ -331,12 +331,15 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     font-family: "shrikhand", cursive;
     font-size: 30px;
     margin: 0 0 0 5%;
+    display: grid;
+    justify-content: center;
   }
   body main footer .finpage {
     justify-content: space-between;
     width: 50%;
     margin-left: 4%;
     display: flex;
+    margin-left: 15%;
   }
   body main footer .finpage .iconf {
     display: flex;
