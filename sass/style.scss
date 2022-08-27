@@ -118,15 +118,19 @@ main
     .city
     {
 
-        text-align: center;
-        padding-top: 20px;
         background-color: rgb(232, 232, 232);
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
 
         & i
         {
             font-size: 130%;
             padding-left: 76px;
-            padding-bottom: 2%;  
+            padding-bottom: 2%; 
+            display: grid;
+            place-items: center; 
+            color: #545353;
         }
 
 
@@ -135,7 +139,10 @@ main
             border: none;
             font-size: medium;
             background-color: rgb(232, 232, 232);
-            padding-left: 7%;
+            display: grid;
+            place-items: center;
+            font-weight: bold;
+            color: #545353;
           
         }
     }
