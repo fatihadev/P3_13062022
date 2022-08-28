@@ -760,13 +760,20 @@ main
     {
 
 
-       
+        & i 
+        {
+            font-size: 19px;
+   
+            color: #464444;
+        }
+
 
         & input
         {
             padding-left: 2%;
             font-size: 20px;
             padding-top: 1%;
+            width: 150px;
         }
 
 
@@ -793,18 +800,23 @@ main
         {   
             display: flex;
             margin-right: 5%;
+            justify-content: space-evenly;
 
             & .one, .two, .three
             {   
 
                 margin-left: 2%;
+                width: 260px;
+                height: 36px;
+                border-radius: 27px;
                
 
                 & .number
                 {
-                    margin: -2.5% 0 0 1%;
-                    width: 3%;
+                    margin: -35px 0 0 10px;
+                    width: 2%;
                     border-radius: 30px;
+
                 }
              
             }

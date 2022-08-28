@@ -410,10 +410,15 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
 }
 @media screen and (min-width: 992px) {
+  body main .city i {
+    font-size: 19px;
+    color: #464444;
+  }
   body main .city input {
     padding-left: 2%;
     font-size: 20px;
     padding-top: 1%;
+    width: 150px;
   }
   body main .reserv .explore {
     width: 27%;
@@ -425,13 +430,17 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main .fonctionnement .btnfonct {
     display: flex;
     margin-right: 5%;
+    justify-content: space-evenly;
   }
   body main .fonctionnement .btnfonct .one, body main .fonctionnement .btnfonct .two, body main .fonctionnement .btnfonct .three {
     margin-left: 2%;
+    width: 260px;
+    height: 36px;
+    border-radius: 27px;
   }
   body main .fonctionnement .btnfonct .one .number, body main .fonctionnement .btnfonct .two .number, body main .fonctionnement .btnfonct .three .number {
-    margin: -2.5% 0 0 1%;
-    width: 3%;
+    margin: -35px 0 0 10px;
+    width: 2%;
     border-radius: 30px;
   }
   body main #restaurants .row1 {
