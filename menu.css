@@ -64,7 +64,7 @@ body header .logo a i {
 body main .img {
   object-fit: cover;
   width: 100%;
-  height: 250px;
+  height: 275px;
 }
 body main .contenu {
   border-radius: 40px 40px 0 0;
@@ -85,7 +85,7 @@ body main .contenu .coeur .Note .cardh {
   cursor: pointer;
   width: 17px;
   height: 21px;
-  margin-top: 7%;
+  margin-top: 27px;
   margin-right: 13%;
 }
 body main .contenu .coeur .Note .cardh i {
@@ -107,7 +107,7 @@ body main .contenu .coeur .Note .cardh:hover .active {
   opacity: 1;
 }
 body main .contenu .coeur .titr {
-  font-size: 200%;
+  font-size: 25px;
   font-weight: bolder;
   font-style: italic;
   font-family: "shrikhand", cursive;
@@ -120,7 +120,7 @@ body main .contenu .soust {
   margin-left: 2%;
 }
 body main .contenu .entre {
-  margin-left: 0.5%;
+  margin-left: 7px;
 }
 body main .contenu .cardsresto {
   margin-left: 4%;
@@ -165,6 +165,7 @@ body main .contenu .cardsresto .card a .textm .prix, body main .contenu .cardsre
 body main .contenu .cardsresto .card a .textm .prix .price, body main .contenu .cardsresto .cardn a .textm .prix .price {
   margin-top: 34px;
   margin-left: 5%;
+  font-weight: bold;
 }
 body main .contenu .cardsresto .card a .textm .prix .check, body main .contenu .cardsresto .cardn a .textm .prix .check {
   background-color: #99E2D0;
@@ -244,14 +245,14 @@ body footer .finpage .legal {
 body footer .finpage .legal a {
   text-decoration: none;
 }
-body footer .finpage .legal a .textp, body footer .finpage .legal a p {
+body footer .finpage .legal a .textp {
   margin-bottom: 0;
   margin-top: 8px;
   color: white;
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
   body main .img {
-    height: 396px;
+    height: 269px;
   }
   body main .contenu .coeur .Note .cardh {
     cursor: pointer;

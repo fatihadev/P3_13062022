@@ -60,16 +60,17 @@ body header {
 body header h1 {
   font-size: 55px;
 }
+body main .form {
+  box-shadow: 0px -3px rgba(164, 163, 163, 0.46);
+}
 body main .city {
   background-color: rgb(232, 232, 232);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   height: 50px;
 }
 body main .city i {
-  font-size: 130%;
-  padding-left: 76px;
-  padding-bottom: 2%;
+  font-size: 92%;
   display: grid;
   place-items: center;
   color: #545353;
@@ -82,6 +83,8 @@ body main .city input {
   place-items: center;
   font-weight: bold;
   color: #545353;
+  margin-left: 25px;
+  width: 124px;
 }
 body main .reserv {
   text-align: center;
@@ -93,15 +96,18 @@ body main .reserv h2 {
   margin: 0;
 }
 body main .reserv .explore {
-  font-size: 130%;
+  font-size: 18px;
+  font-weight: bold;
   border-radius: 49px;
   height: 45px;
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-  width: 85%;
+  width: 70%;
   border: none;
-  margin-left: 10%;
+  margin-left: 17%;
   display: grid;
   place-items: center;
+  margin-bottom: 25px;
+  box-shadow: -1px 1px 7px 1px rgba(128, 128, 128, 0.4509803922);
 }
 body main .reserv .explore a {
   text-decoration: none;
@@ -116,16 +122,18 @@ body main .btnfonct {
 }
 body main .btnfonct .one, body main .btnfonct .two, body main .btnfonct .three {
   display: flex;
-  background-color: #f1f1f1;
+  background-color: #f7f7f7;
   padding: 1%;
-  margin-bottom: 5%;
-  border: solid 2px #F2F2F2;
-  border-radius: 49px;
+  margin-bottom: 36px;
+  border-radius: 21px;
   font-weight: bold;
-  width: 75%;
-  height: 55%;
+  box-shadow: -2px -1px 9px 2px rgba(208, 208, 208, 0.41);
+  width: 234px;
+  height: 42%;
   justify-content: space-evenly;
   font-size: 17px;
+  padding-top: 16px;
+  padding-bottom: 2px;
 }
 body main .btnfonct .one i, body main .btnfonct .two i, body main .btnfonct .three i {
   margin-left: 5%;
@@ -138,16 +146,16 @@ body main .btnfonct .one .number, body main .btnfonct .two .number, body main .b
   background-color: #9356DC;
   border: 0.2rem solid #9356DC;
   border-radius: 47%;
-  width: 4%;
+  width: 20px;
   display: grid;
   place-items: center;
   color: white;
   position: absolute;
   padding: 0.1%;
-  margin: 0.3% 3% 0 -65%;
+  margin: -1% 100px 0 -139px;
 }
 body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
-  background-color: #d1b7f0;
+  background-color: rgba(183, 150, 233, 0.1333333333);
 }
 body main #restaurants {
   background-color: rgb(217, 216, 216);
@@ -202,7 +210,7 @@ body main #restaurants .row1 .card a .textimg {
 body main #restaurants .row1 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
-  font-size: 13px;
+  font-size: 15px;
 }
 body main #restaurants .row1 .card a .textimg .content h2 {
   margin: 0;
@@ -214,8 +222,10 @@ body main #restaurants .row1 .card a .textimg .content p {
 }
 body main #restaurants .row1 .card a .textimg .cardh {
   cursor: pointer;
-  width: 17px;
-  height: 21px;
+  width: 57px;
+  font-size: 25px;
+  height: 22px;
+  margin-top: 7px;
 }
 body main #restaurants .row1 .card a .textimg .cardh i {
   position: absolute;
@@ -279,19 +289,22 @@ body main #restaurants .row2 .card a .textimg {
 body main #restaurants .row2 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
+  font-size: 15px;
 }
 body main #restaurants .row2 .card a .textimg .content h2 {
   margin: 0;
   padding: 0;
 }
 body main #restaurants .row2 .card a .textimg .content p {
-  font-size: 19px;
+  font-size: 18px;
   margin-top: 5px;
 }
 body main #restaurants .row2 .card a .textimg .cardh {
   cursor: pointer;
-  width: 17px;
-  height: 21px;
+  width: 57px;
+  font-size: 25px;
+  height: 22px;
+  margin-top: 7px;
 }
 body main #restaurants .row2 .card a .textimg .cardh i {
   position: absolute;

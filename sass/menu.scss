@@ -95,7 +95,7 @@ body
         {
             object-fit: cover;
             width: 100%;
-            height: 250px;
+            height: 275px;
             
         }
 
@@ -122,10 +122,11 @@ body
                     
                     & .cardh
                     {
+                      
                         cursor: pointer;
                         width: 17px;
                         height: 21px;
-                        margin-top: 7%;
+                        margin-top: 27px;
                         margin-right: 13%;
                 
                         & i
@@ -164,7 +165,7 @@ body
 
                 & .titr
                 {
-                    font-size: 200%;
+                    font-size: 25px;
                     font-weight: bolder;
                     font-style: italic;
                     font-family:"shrikhand",cursive;
@@ -186,7 +187,7 @@ body
 
                     & .entre 
                     {
-                        margin-left: 0.5%;
+                        margin-left: 7px
                     }
             
 
@@ -267,7 +268,7 @@ body
                                 
                                     margin-top: 34px;
                                     margin-left: 5%;
-
+                                    font-weight: bold;
                                 
                                 }
                             
@@ -415,12 +416,14 @@ footer
                         text-decoration: none;
                 
 
-                    & .textp, p
+                    & .textp
                     {
                         margin-bottom: 0;
                         margin-top: 8px;
                         color: white;
                     }
+
+                  
                 
 
                 }
@@ -441,7 +444,7 @@ main
 {
     .img
     {
-        height: 396px;
+        height: 269px;
     }
 
     .contenu

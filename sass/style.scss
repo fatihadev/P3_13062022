@@ -114,20 +114,22 @@ body
 main
 {
 
+    .form
+    {
+        box-shadow: 0px -3px rgb(164 163 163 / 46%);
+    }
 
     .city
     {
 
         background-color: rgb(232, 232, 232);
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         height: 50px;
 
         & i
         {
-            font-size: 130%;
-            padding-left: 76px;
-            padding-bottom: 2%; 
+            font-size: 92%;
             display: grid;
             place-items: center; 
             color: #545353;
@@ -143,6 +145,8 @@ main
             place-items: center;
             font-weight: bold;
             color: #545353;
+            margin-left: 25px;
+            width: 124px;
           
         }
     }
@@ -161,15 +165,18 @@ main
 
         & .explore 
         {
-            font-size: 130%;
+            font-size: 18px;
+            font-weight: bold;
             border-radius: 49px;
             height: 45px;
             background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-            width: 85%;
+            width: 70%;
             border: none;
-            margin-left: 10%;
+            margin-left: 17%;
             display: grid;
             place-items: center;
+            margin-bottom: 25px;
+            box-shadow: -1px 1px 7px 1px #80808073;
             
 
             & a 
@@ -192,21 +199,24 @@ main
 
         display: grid;
         place-items: center;
+        
 
 
         & .one, .two, .three
         {
             display: flex;
-    background-color: #f1f1f1;
-    padding: 1%;
-    margin-bottom: 5%;
-    border: solid 2px #F2F2F2;
-    border-radius: 49px;
-    font-weight: bold;
-    width: 75%;
-    height: 55%;
-    justify-content: space-evenly;
-    font-size: 17px;
+            background-color: #f7f7f7;
+            padding: 1%;
+            margin-bottom: 36px;
+            border-radius: 21px;
+            font-weight: bold;
+            box-shadow: -2px -1px 9px 2px rgb(208 208 208 / 41%);
+            width: 234px;
+            height: 42%;
+            justify-content: space-evenly;
+            font-size: 17px;
+            padding-top: 16px;
+            padding-bottom: 2px;
            
             & i 
             {
@@ -224,19 +234,19 @@ main
                 background-color: #9356DC;
                 border: 0.2rem solid #9356DC;
                 border-radius: 47%;
-                width: 4%;
+                width: 20px;
                 display: grid;
                 place-items: center;
                 color: white;
                 position: absolute;
                 padding: 0.1%;
-                margin: 0.3% 3% 0 -65%;
+                margin: -1% 100px 0 -139px;
                 
             }
 
             &:hover 
             {
-                background-color: #d1b7f0;
+                background-color: #b796e922;
             }
         }
         
@@ -320,7 +330,7 @@ main
                                 
                                     margin-left: 5%;
                                     width: 86.5%;
-                                    font-size: 13px;
+                                    font-size: 15px;
 
                             
                                     & h2 
@@ -344,8 +354,10 @@ main
                             & .cardh
                             {
                                 cursor: pointer;
-                                width: 17px;
-                                height: 21px;
+                                width: 57px;
+                                font-size: 25px;
+                                height: 22px;
+                                margin-top: 7px;
                         
                                 & i
                                 {
@@ -458,6 +470,7 @@ main
                                     
                                         margin-left: 5%;
                                         width: 86.5%;
+                                        font-size: 15px;
                                         
     
                                         
@@ -471,7 +484,7 @@ main
 
                                         & p 
                                         {   
-                                            font-size: 19px;
+                                            font-size: 18px;
                                             margin-top: 5px;
                                        
 
@@ -482,8 +495,10 @@ main
                                 & .cardh
                             {
                                 cursor: pointer;
-                                width: 17px;
-                                height: 21px;
+                                width: 57px;
+                                font-size: 25px;
+                                height: 22px;
+                                margin-top: 7px;
                         
                                 & i
                                 {
