@@ -1,12 +1,9 @@
 
 html
 {   
-     font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif, Arial, "Trebuchet MS", "Comic Sans MS";
 
-     h2 
-     {
-        font-family:"shrikhand";
-     }
+
 }
 
 
@@ -94,18 +91,20 @@ body
 
     header
     {
-        font-family:"shrikhand";
+       
         text-align: center;
-        font-size: 200%;
-        font-weight: bolder;
-        font-style: italic;
+        
+        // font-weight: bolder;
+        // font-style: italic;
         position: relative;
         box-shadow: 0 0 0.5rem rgb(213, 211, 211);
         padding: 0.3rem;
 
         & h1 
         {
-            font-size: 55px;
+          
+            font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+            font-size: 3rem;
         }
 
     }
@@ -161,6 +160,9 @@ main
         & h2
         {
             margin: 0;
+            display: grid;
+            place-items: center;
+            font-size: 25px;
         }
 
         & .explore 
@@ -199,7 +201,7 @@ main
 
         display: grid;
         place-items: center;
-        
+        padding: 0;
 
 
         & .one, .two, .three
@@ -558,9 +560,10 @@ footer
 
         h1 
         {
-            font-family:"shrikhand",cursive;
-            font-size: 30px;
+            font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+            font-size: 1.5rem;
             margin: 0 0 0 5%;
+            font-weight: 100;
         }
 
         .finpage
@@ -581,19 +584,26 @@ footer
                    
                 }
 
-                & p 
+                & .proposer
                 {   
                     margin-bottom: 5px;
-                    margin-left: 5px;
+                    margin-left: 14px;
                     margin-top: 0;
 
+                }
+
+                & .partenaire
+                {
+                    margin-bottom: 5px;
+                    margin-left: 7px;
+                    margin-top: 0;
                 }
 
             }
 
             & .legal
             {
-                margin-left: 5%;
+                margin-left: 12px;
 
               & p 
               {
@@ -738,6 +748,13 @@ main
 
 
 
+}
+footer 
+{
+    .finpage
+    {
+        margin-left: 3%;
+    }
 }
 }
 }
@@ -918,53 +935,16 @@ main
 }
 
 
-footer
+footer 
 {
-    padding-bottom: 54px;
+    font-size: 20px;
 
-    & h1
+    .finpage 
     {
-        display: grid;
-    place-items: center;
+        margin-left: 4%;
     }
-
-    .finpage
-    {
-        display: flex;
-        display: flex;
-        margin-left: 11%;
-        margin-top: 2%;
-
-        & .iconf 
-        {
-            width: 246px;
-        }
-
-        & .legal
-        {
-            display: flex;
-
-        
-            & p 
-            {
-                margin-right: 5%;
-                width: 166px;
-                margin-top: 0;
-            }
-
-            & .textp
-           {
-            margin-left: 91px;
-            color: white;
-            text-decoration: none;
-            
-           }
-
-
-        }
-    }
-
 }
+
 
 
 
@@ -1059,7 +1039,7 @@ footer
 
     header
     {
-        font-family:"shrikhand",cursive;
+        font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
         text-align: center;
         font-size: 25px;
         font-weight: bolder;
@@ -1500,7 +1480,7 @@ footer
 
         h1 
         {
-            font-family:"shrikhand",cursive;
+            font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
             font-size: 30px;
             margin: 0 0 0 5%;
         }

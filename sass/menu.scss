@@ -33,12 +33,9 @@
 
 html
 {   
-     font-family: 'Roboto', sans-serif;
+    
+    font-family: "Roboto", sans-serif, Arial, "Trebuchet MS", "Comic Sans MS";
 
-     & h2 
-     {
-        font-family:"shrikhand","sans-serif";
-     }
     
 }
 
@@ -48,7 +45,8 @@ body
 
     header
     {
-        font-family:"shrikhand","sans-serif";
+        
+        font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
         text-align: center;
         font-size: 112%;
         font-weight: bolder;
@@ -63,6 +61,7 @@ body
             display: flex;
             justify-content: space-around;
             margin-right: 21%;
+        
 
             & a 
             {
@@ -80,6 +79,12 @@ body
 
                 }
        
+                 & h1 
+                {
+                  
+                    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+                    font-size: 4rem;
+                }
             }
     
 
@@ -168,7 +173,7 @@ body
                     font-size: 25px;
                     font-weight: bolder;
                     font-style: italic;
-                    font-family:"shrikhand",cursive;
+                    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
                     margin-left: 2%;
                     
                 }
@@ -187,7 +192,7 @@ body
 
                     & .entre 
                     {
-                        margin-left: 7px
+                        margin-left: 5.5%;
                     }
             
 
@@ -240,6 +245,7 @@ body
                                     overflow: hidden;
                                     white-space: nowrap;
                                     text-overflow: ellipsis;
+                                    font-weight: 500;
 
                             
                                 }
@@ -351,7 +357,7 @@ body
                         border: none;
                         margin-bottom: 5%;
                         padding: 1%;
-                        width: 50%;
+                        width: 215px;
                         
 
                     }
@@ -364,27 +370,27 @@ body
 
 
 }
-
 footer
 {
     background-color: rgb(81, 80, 80);
     color: white;
     width: 100%;
     padding-top: 5%;
-    top: 194%;  
+    padding-bottom: 5%;
 
         h1 
         {
-            font-family:"shrikhand",cursive;
-            font-size: 30px;
+            font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+            font-size: 1.5rem;
             margin: 0 0 0 5%;
+            font-weight: 100;
         }
 
         .finpage
         {
             
             justify-content: space-between;
-            width: 70%;
+            width: 80%;
             margin-left: 2%;
             
             & .iconf
@@ -393,46 +399,57 @@ footer
 
                 & .fas
                 {
-                    margin-left: 6%;
-                    margin-top: 1%;
-                    margin-right: 3%;
-                    
+                    margin-left: 13px;
+                    margin-top: 0;
+                   
                 }
 
-                p 
+                & .proposer
+                {   
+                    margin-bottom: 5px;
+                    margin-left: 14px;
+                    margin-top: 0;
+
+                }
+
+                & .partenaire
                 {
-                    margin: 0;
+                    margin-bottom: 5px;
+                    margin-left: 7px;
+                    margin-top: 0;
                 }
 
             }
 
             & .legal
             {
-                margin-left: 5%;
-                padding-bottom: 8%;
+                margin-left: 12px;
 
-                & a 
+              & p 
+              {
+                margin: 0;
+              }
+
+                & a
                 {
-                        text-decoration: none;
-                
+                    text-decoration: none;
 
-                    & .textp
+
+                    & .textp, p
                     {
-                        margin-bottom: 0;
-                        margin-top: 8px;
+                        
                         color: white;
+                        text-decoration: none;
+                        margin-bottom: 0;
                     }
 
-                  
                 
 
-                }
 
-             
+                }
             }
 
         }
-
 
 }
 
@@ -556,6 +573,7 @@ main
 @media screen and (min-width:992px) // version desktop
 {
 
+
 main 
 {
 
@@ -653,62 +671,22 @@ main
     }
 
 
+}
+footer 
+{
+    font-size: 20px;
 
-
-    footer
+    .finpage 
     {
-       
-    
-        & h1
-        {
-            display: grid;
-        place-items: center;
-        }
-    
-        .finpage
-        {
-            display: flex;
-            display: flex;
-            margin-left: 11%;
-            margin-top: 2%;
-    
-            & .iconf 
-            {
-                width: 246px;
-            }
-    
-            & .legal
-            {
-                display: flex;
-    
-            
-                & p 
-                {
-                    margin-right: 5%;
-                    width: 166px;
-                    margin-top: 0;
-                }
-    
-                & .textp
-               {
-                margin-top: 0;
-                color: white;
-                text-decoration: none;
-                
-               }
-    
-    
-            }
-        }
-    
+        margin-left: 4%;
     }
-    
-
 }
-
 
 }
 }
+
+
+
 
  
 @media screen and (max-width:300px)
@@ -717,6 +695,7 @@ main
 
 body 
 {
+
     main 
     {
         .contenu 
@@ -757,7 +736,7 @@ footer
 
         h1 
         {
-            font-family:"shrikhand",cursive;
+            font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
             font-size: 30px;
             margin: 0 0 0 5%;
         }

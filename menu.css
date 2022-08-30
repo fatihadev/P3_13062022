@@ -26,17 +26,14 @@
   }
 }
 html {
-  font-family: "Roboto", sans-serif;
-}
-html h2 {
-  font-family: "shrikhand", "sans-serif";
+  font-family: "Roboto", sans-serif, Arial, "Trebuchet MS", "Comic Sans MS";
 }
 
 body {
   margin: 0 0 0 0;
 }
 body header {
-  font-family: "shrikhand", "sans-serif";
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
   text-align: center;
   font-size: 112%;
   font-weight: bolder;
@@ -60,6 +57,10 @@ body header .logo a i {
   display: grid;
   place-items: center;
   margin-right: 19%;
+}
+body header .logo a h1 {
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+  font-size: 4rem;
 }
 body main .img {
   object-fit: cover;
@@ -110,7 +111,7 @@ body main .contenu .coeur .titr {
   font-size: 25px;
   font-weight: bolder;
   font-style: italic;
-  font-family: "shrikhand", cursive;
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
   margin-left: 2%;
 }
 body main .contenu .soust {
@@ -120,7 +121,7 @@ body main .contenu .soust {
   margin-left: 2%;
 }
 body main .contenu .entre {
-  margin-left: 7px;
+  margin-left: 5.5%;
 }
 body main .contenu .cardsresto {
   margin-left: 4%;
@@ -151,6 +152,7 @@ body main .contenu .cardsresto .card a .textm .titre h2, body main .contenu .car
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  font-weight: 500;
 }
 body main .contenu .cardsresto .card a .textm .titre p, body main .contenu .cardsresto .cardn a .textm .titre p {
   overflow: hidden;
@@ -208,47 +210,56 @@ body main .contenu .cardsresto .bouton .commande {
   border: none;
   margin-bottom: 5%;
   padding: 1%;
-  width: 50%;
+  width: 215px;
 }
 body footer {
   background-color: rgb(81, 80, 80);
   color: white;
   width: 100%;
   padding-top: 5%;
-  top: 194%;
+  padding-bottom: 5%;
 }
 body footer h1 {
-  font-family: "shrikhand", cursive;
-  font-size: 30px;
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+  font-size: 1.5rem;
   margin: 0 0 0 5%;
+  font-weight: 100;
 }
 body footer .finpage {
   justify-content: space-between;
-  width: 70%;
+  width: 80%;
   margin-left: 2%;
 }
 body footer .finpage .iconf {
   display: flex;
 }
 body footer .finpage .iconf .fas {
-  margin-left: 6%;
-  margin-top: 1%;
-  margin-right: 3%;
+  margin-left: 13px;
+  margin-top: 0;
 }
-body footer .finpage .iconf p {
-  margin: 0;
+body footer .finpage .iconf .proposer {
+  margin-bottom: 5px;
+  margin-left: 14px;
+  margin-top: 0;
+}
+body footer .finpage .iconf .partenaire {
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-top: 0;
 }
 body footer .finpage .legal {
-  margin-left: 5%;
-  padding-bottom: 8%;
+  margin-left: 12px;
+}
+body footer .finpage .legal p {
+  margin: 0;
 }
 body footer .finpage .legal a {
   text-decoration: none;
 }
-body footer .finpage .legal a .textp {
-  margin-bottom: 0;
-  margin-top: 8px;
+body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   color: white;
+  text-decoration: none;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
   body main .img {
@@ -325,31 +336,11 @@ body footer .finpage .legal a .textp {
     width: 32%;
     margin-left: 2%;
   }
-  body main footer h1 {
-    display: grid;
-    place-items: center;
+  body footer {
+    font-size: 20px;
   }
-  body main footer .finpage {
-    display: flex;
-    display: flex;
-    margin-left: 11%;
-    margin-top: 2%;
-  }
-  body main footer .finpage .iconf {
-    width: 246px;
-  }
-  body main footer .finpage .legal {
-    display: flex;
-  }
-  body main footer .finpage .legal p {
-    margin-right: 5%;
-    width: 166px;
-    margin-top: 0;
-  }
-  body main footer .finpage .legal .textp {
-    margin-top: 0;
-    color: white;
-    text-decoration: none;
+  body footer .finpage {
+    margin-left: 4%;
   }
 }
 
@@ -369,7 +360,7 @@ body footer .finpage .legal a .textp {
     padding-bottom: 5%;
   }
   footer h1 {
-    font-family: "shrikhand", cursive;
+    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
     font-size: 30px;
     margin: 0 0 0 5%;
   }

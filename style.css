@@ -1,8 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
-}
-html h2 {
-  font-family: "shrikhand", "sans-serif";
+  font-family: "Roboto", sans-serif, Arial, "Trebuchet MS", "Comic Sans MS";
 }
 
 body {
@@ -48,17 +45,14 @@ body .loading::before {
   }
 }
 body header {
-  font-family: "shrikhand", "sans-serif";
   text-align: center;
-  font-size: 200%;
-  font-weight: bolder;
-  font-style: italic;
   position: relative;
   box-shadow: 0 0 0.5rem rgb(213, 211, 211);
   padding: 0.3rem;
 }
 body header h1 {
-  font-size: 55px;
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+  font-size: 3rem;
 }
 body main .form {
   box-shadow: 0px -3px rgba(164, 163, 163, 0.46);
@@ -94,6 +88,9 @@ body main .reserv {
 }
 body main .reserv h2 {
   margin: 0;
+  display: grid;
+  place-items: center;
+  font-size: 25px;
 }
 body main .reserv .explore {
   font-size: 18px;
@@ -119,6 +116,7 @@ body main .fonct {
 body main .btnfonct {
   display: grid;
   place-items: center;
+  padding: 0;
 }
 body main .btnfonct .one, body main .btnfonct .two, body main .btnfonct .three {
   display: flex;
@@ -333,9 +331,10 @@ footer {
   padding-bottom: 5%;
 }
 footer h1 {
-  font-family: "shrikhand", cursive;
-  font-size: 30px;
+  font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+  font-size: 1.5rem;
   margin: 0 0 0 5%;
+  font-weight: 100;
 }
 footer .finpage {
   justify-content: space-between;
@@ -349,13 +348,18 @@ footer .finpage .iconf .fas {
   margin-left: 13px;
   margin-top: 0;
 }
-footer .finpage .iconf p {
+footer .finpage .iconf .proposer {
   margin-bottom: 5px;
-  margin-left: 5px;
+  margin-left: 14px;
+  margin-top: 0;
+}
+footer .finpage .iconf .partenaire {
+  margin-bottom: 5px;
+  margin-left: 7px;
   margin-top: 0;
 }
 footer .finpage .legal {
-  margin-left: 5%;
+  margin-left: 12px;
 }
 footer .finpage .legal p {
   margin: 0;
@@ -407,6 +411,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row2 .card a .badge {
     width: 10%;
+  }
+  body footer .finpage {
+    margin-left: 3%;
   }
 }
 @media screen and (min-width: 992px) {
@@ -478,33 +485,10 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     margin-top: 2%;
   }
   body footer {
-    padding-bottom: 54px;
-  }
-  body footer h1 {
-    display: grid;
-    place-items: center;
+    font-size: 20px;
   }
   body footer .finpage {
-    display: flex;
-    display: flex;
-    margin-left: 11%;
-    margin-top: 2%;
-  }
-  body footer .finpage .iconf {
-    width: 246px;
-  }
-  body footer .finpage .legal {
-    display: flex;
-  }
-  body footer .finpage .legal p {
-    margin-right: 5%;
-    width: 166px;
-    margin-top: 0;
-  }
-  body footer .finpage .legal .textp {
-    margin-left: 91px;
-    color: white;
-    text-decoration: none;
+    margin-left: 4%;
   }
 }
 @media screen and (max-width: 300px) {
@@ -551,7 +535,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     }
   }
   body header {
-    font-family: "shrikhand", cursive;
+    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
     text-align: center;
     font-size: 25px;
     font-weight: bolder;
@@ -810,7 +794,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     padding-bottom: 5%;
   }
   footer h1 {
-    font-family: "shrikhand", cursive;
+    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
     font-size: 30px;
     margin: 0 0 0 5%;
   }
