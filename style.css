@@ -81,29 +81,30 @@ body main .city input {
   width: 124px;
 }
 body main .reserv {
-  text-align: center;
+  display: grid;
+  place-items: center;
   background-color: rgb(244, 244, 244);
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 55px;
 }
 body main .reserv h2 {
-  margin: 0;
-  display: grid;
-  place-items: center;
-  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 32px;
+}
+body main .reserv .soustitre {
+  text-align: center;
+  margin-bottom: 28px;
 }
 body main .reserv .explore {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 15px;
   border-radius: 49px;
-  height: 45px;
+  height: 50px;
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-  width: 70%;
+  width: 200px;
   border: none;
-  margin-left: 17%;
   display: grid;
   place-items: center;
-  margin-bottom: 25px;
   box-shadow: -1px 1px 7px 1px rgba(128, 128, 128, 0.4509803922);
 }
 body main .reserv .explore a {
@@ -121,17 +122,18 @@ body main .btnfonct {
 body main .btnfonct .one, body main .btnfonct .two, body main .btnfonct .three {
   display: flex;
   background-color: #f7f7f7;
-  padding: 1%;
-  margin-bottom: 36px;
   border-radius: 21px;
   font-weight: bold;
   box-shadow: -2px -1px 9px 2px rgba(208, 208, 208, 0.41);
-  width: 234px;
-  height: 42%;
+  width: 87%;
   justify-content: space-evenly;
-  font-size: 17px;
-  padding-top: 16px;
-  padding-bottom: 2px;
+  margin-bottom: 21px;
+  height: 38px;
+  padding-top: 17px;
+  font-size: 15px;
+  padding-right: 3px;
+  margin-left: 31px;
+  margin-right: 14px;
 }
 body main .btnfonct .one i, body main .btnfonct .two i, body main .btnfonct .three i {
   margin-left: 5%;
@@ -149,14 +151,18 @@ body main .btnfonct .one .number, body main .btnfonct .two .number, body main .b
   place-items: center;
   color: white;
   position: absolute;
-  padding: 0.1%;
-  margin: -1% 100px 0 -139px;
+  margin: -0.8% 13% 0 -72%;
 }
 body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
   background-color: rgba(183, 150, 233, 0.1333333333);
 }
+body main .btnfonct .one .texticon, body main .btnfonct .two .texticon, body main .btnfonct .three .texticon {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
 body main #restaurants {
-  background-color: rgb(217, 216, 216);
+  background-color: rgb(244, 244, 244);
 }
 body main #restaurants .resto {
   margin-left: 4%;
@@ -165,7 +171,7 @@ body main #restaurants .resto {
 body main #restaurants .row1 {
   margin-left: 4%;
   height: 50%;
-  margin-right: 4%;
+  margin-right: 1%;
   padding-top: 4%;
 }
 body main #restaurants .row1 .card {
@@ -186,15 +192,17 @@ body main #restaurants .row1 .card a {
 body main #restaurants .row1 .card a .badge {
   position: absolute;
   background-color: #99E2D0;
-  color: rgb(59, 145, 59);
+  color: rgb(41, 165, 133);
   font-weight: bold;
-  width: 22%;
-  padding: 3px 12px;
+  width: 20%;
+  padding: 3px 9px;
   text-align: center;
   border-radius: 2px;
   margin-top: 3%;
-  margin-left: 55%;
-  font-size: 19px;
+  margin-left: 63%;
+  font-size: 17px;
+  height: 23px;
+  padding-top: 5px;
 }
 body main #restaurants .row1 .card a .img {
   width: 100%;
@@ -208,7 +216,8 @@ body main #restaurants .row1 .card a .textimg {
 body main #restaurants .row1 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
-  font-size: 15px;
+  font-size: 13px;
+  margin-top: 9px;
 }
 body main #restaurants .row1 .card a .textimg .content h2 {
   margin: 0;
@@ -223,7 +232,7 @@ body main #restaurants .row1 .card a .textimg .cardh {
   width: 57px;
   font-size: 25px;
   height: 22px;
-  margin-top: 7px;
+  margin-top: 16px;
 }
 body main #restaurants .row1 .card a .textimg .cardh i {
   position: absolute;
@@ -245,7 +254,7 @@ body main #restaurants .row1 .card a .textimg .cardh:hover .active {
 body main #restaurants .row2 {
   margin-left: 4%;
   height: 50%;
-  margin-right: 4%;
+  margin-right: 1%;
   padding-bottom: 8%;
 }
 body main #restaurants .row2 .card {
@@ -287,7 +296,8 @@ body main #restaurants .row2 .card a .textimg {
 body main #restaurants .row2 .card a .textimg .content {
   margin-left: 5%;
   width: 86.5%;
-  font-size: 15px;
+  font-size: 13px;
+  margin-top: 9px;
 }
 body main #restaurants .row2 .card a .textimg .content h2 {
   margin: 0;
@@ -302,7 +312,7 @@ body main #restaurants .row2 .card a .textimg .cardh {
   width: 57px;
   font-size: 25px;
   height: 22px;
-  margin-top: 7px;
+  margin-top: 16px;
 }
 body main #restaurants .row2 .card a .textimg .cardh i {
   position: absolute;
@@ -427,10 +437,6 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     padding-top: 1%;
     width: 150px;
   }
-  body main .reserv .explore {
-    width: 27%;
-    margin-left: 35%;
-  }
   body main .fonctionnement h1 {
     margin-left: 2%;
   }
@@ -491,7 +497,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     margin-left: 4%;
   }
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 314px) {
   body {
     margin: 0 0 0 0;
   }
@@ -510,8 +516,8 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body .loading::before {
     content: "";
-    width: 264px;
-    height: 275px;
+    width: 50px;
+    height: 50px;
     border: 10px solid transparent;
     border-top-color: #99E2D0;
     border-radius: 240px;
@@ -545,7 +551,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     padding: 0.3rem;
   }
   body header h1 {
-    font-size: 25px;
+    font-size: 19px;
   }
   body main .city {
     text-align: center;
@@ -591,6 +597,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main .fonct {
     margin-left: 4%;
+    font-size: 15px;
   }
   body main .btnfonct {
     display: grid;
@@ -631,6 +638,9 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main .btnfonct .one:hover, body main .btnfonct .two:hover, body main .btnfonct .three:hover {
     background-color: #d1b7f0;
   }
+  body main .btnfonct .one .texticon, body main .btnfonct .two .texticon, body main .btnfonct .three .texticon {
+    width: 90%;
+  }
   body main #restaurants {
     background-color: rgb(217, 216, 216);
   }
@@ -648,7 +658,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     width: 98%;
     height: 287px;
     background-color: white;
-    border-radius: 46PX;
+    border-radius: 18px;
     margin-right: 10%;
     box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
     margin-bottom: 7%;
@@ -690,11 +700,12 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main #restaurants .row1 .card a .textimg .content h2 {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 16px;
   }
   body main #restaurants .row1 .card a .textimg .content p {
     font-size: 15px;
     margin-top: 5px;
+    font-size: 11px;
   }
   body main #restaurants .row1 .card a .textimg .cardh {
     cursor: pointer;
@@ -704,6 +715,8 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row1 .card a .textimg .cardh i {
     position: absolute;
+    margin-top: 22px;
+    font-size: 15px;
   }
   body main #restaurants .row1 .card a .textimg .cardh .active {
     background-color: #9356DC;
@@ -729,7 +742,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
     width: 98%;
     height: 287px;
     background-color: white;
-    border-radius: 46px;
+    border-radius: 18px;
     margin-right: 9%;
     box-shadow: 0px 0px 13px 2px rgba(128, 128, 128, 0.4117647059);
     margin-bottom: 7%;
@@ -756,11 +769,12 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   body main #restaurants .row2 .card a .textimg .content h2 {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 16px;
   }
   body main #restaurants .row2 .card a .textimg .content p {
     font-size: 15px;
     margin-top: 5px;
+    font-size: 11px;
   }
   body main #restaurants .row2 .card a .textimg .cardh {
     cursor: pointer;
@@ -770,7 +784,8 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   body main #restaurants .row2 .card a .textimg .cardh i {
     position: absolute;
-    font-size: 25px;
+    font-size: 15px;
+    margin-top: 22px;
   }
   body main #restaurants .row2 .card a .textimg .cardh .active {
     background-color: #9356DC;
@@ -795,7 +810,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   footer h1 {
     font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
-    font-size: 30px;
+    font-size: 19px;
     margin: 0 0 0 5%;
   }
   footer .finpage {
@@ -805,7 +820,7 @@ footer .finpage .legal a .textp, footer .finpage .legal a p {
   }
   footer .finpage .iconf {
     display: flex;
-    width: 224px;
+    width: 132px;
   }
   footer .finpage .iconf .fas {
     margin-left: 13px;

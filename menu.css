@@ -86,7 +86,7 @@ body main .contenu .coeur .Note .cardh {
   cursor: pointer;
   width: 17px;
   height: 21px;
-  margin-top: 27px;
+  margin-top: 44px;
   margin-right: 13%;
 }
 body main .contenu .coeur .Note .cardh i {
@@ -113,6 +113,7 @@ body main .contenu .coeur .titr {
   font-style: italic;
   font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
   margin-left: 2%;
+  margin-top: 40px;
 }
 body main .contenu .soust {
   font-size: 110%;
@@ -130,6 +131,7 @@ body main .contenu .cardsresto {
 body main .contenu .cardsresto .card, body main .contenu .cardsresto .cardn {
   margin-bottom: 5%;
   animation: retarde 3s ease-in-out;
+  height: 88px;
 }
 body main .contenu .cardsresto .card a, body main .contenu .cardsresto .cardn a {
   color: black;
@@ -145,36 +147,40 @@ body main .contenu .cardsresto .card a .textm, body main .contenu .cardsresto .c
 }
 body main .contenu .cardsresto .card a .textm .titre, body main .contenu .cardsresto .cardn a .textm .titre {
   font-size: 15px;
-  width: 80%;
-  margin-left: 2%;
+  width: 70%;
+  margin-left: 3.5%;
 }
 body main .contenu .cardsresto .card a .textm .titre h2, body main .contenu .cardsresto .cardn a .textm .titre h2 {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-weight: 500;
+  margin-bottom: 9px;
+  margin-top: 14px;
 }
 body main .contenu .cardsresto .card a .textm .titre p, body main .contenu .cardsresto .cardn a .textm .titre p {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin-top: 0px;
 }
 body main .contenu .cardsresto .card a .textm .prix, body main .contenu .cardsresto .cardn a .textm .prix {
   display: flex;
-  width: 20%;
+  width: 30%;
   justify-content: space-between;
 }
 body main .contenu .cardsresto .card a .textm .prix .price, body main .contenu .cardsresto .cardn a .textm .prix .price {
-  margin-top: 34px;
-  margin-left: 5%;
+  margin-top: 50px;
+  margin-left: 55%;
   font-weight: bold;
+  margin-right: 2%;
 }
 body main .contenu .cardsresto .card a .textm .prix .check, body main .contenu .cardsresto .cardn a .textm .prix .check {
   background-color: #99E2D0;
   border-radius: 0 14px 14px 0;
   height: 100px;
-  width: 48px;
-  margin-right: -53px;
+  width: 53px;
+  margin-right: -137px;
   display: grid;
   place-items: center;
   transition: all 1s ease-in-out;
@@ -197,20 +203,23 @@ body main .contenu .cardsresto .card a .textm:hover .checkm, body main .contenu 
 body main .contenu .cardsresto .card a .textm:hover h2, body main .contenu .cardsresto .cardn a .textm:hover h2 {
   width: 200px;
 }
+body main .contenu .cardsresto .card a .textm:hover .price, body main .contenu .cardsresto .cardn a .textm:hover .price {
+  margin-left: 5%;
+}
 body main .contenu .cardsresto .bouton {
   display: flex;
   justify-content: center;
 }
 body main .contenu .cardsresto .bouton .commande {
   background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-  border-radius: 10px;
-  font-size: 25px;
+  font-size: 14px;
   color: white;
-  border-radius: 20px;
+  border-radius: 34px;
   border: none;
   margin-bottom: 5%;
   padding: 1%;
-  width: 215px;
+  width: 135px;
+  height: 43px;
 }
 body footer {
   background-color: rgb(81, 80, 80);
@@ -260,6 +269,7 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   color: white;
   text-decoration: none;
   margin-bottom: 0;
+  margin-top: 9px;
 }
 @media screen and (max-width: 992px) and (min-width: 768px) {
   body main .img {
@@ -295,7 +305,6 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   body main .contenu .cardsresto .card a .prix .price, body main .contenu .cardsresto .cardn a .prix .price {
     margin-top: 33px;
     margin-left: 375px;
-    font-size: 27px;
   }
   body main .contenu .bouton {
     border-radius: 35px;
@@ -320,6 +329,10 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     margin-left: 2%;
     font-size: 30px;
   }
+  body main .contenu .cardsresto {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
   body main .contenu .cardsresto .categorie1, body main .contenu .cardsresto .categorie2, body main .contenu .cardsresto .categorie3 {
     display: flex;
   }
@@ -336,6 +349,11 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     width: 32%;
     margin-left: 2%;
   }
+  body main .contenu .cardsresto .bouton.commande {
+    font-size: 20px;
+    width: 174px;
+    height: 66px;
+  }
   body footer {
     font-size: 20px;
   }
@@ -344,13 +362,18 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 314px) {
+  body h1 {
+    font: 19px;
+  }
   body main .contenu .cardsresto .bouton {
     display: flex;
     justify-content: center;
   }
   body main .contenu .cardsresto .bouton .commande {
-    width: 70%;
+    width: 60%;
+    font-size: 11px;
+    height: 30px;
   }
   footer {
     background-color: rgb(81, 80, 80);
