@@ -415,7 +415,7 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
   }
   body footer .finpage .iconf {
     display: flex;
-    width: 60%;
+    width: 90%;
   }
   body footer .finpage .iconf .fas {
     margin-left: 13px;
