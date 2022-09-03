@@ -206,6 +206,9 @@ body main .contenu .cardsresto .card a .textm:hover h2, body main .contenu .card
 body main .contenu .cardsresto .card a .textm:hover .price, body main .contenu .cardsresto .cardn a .textm:hover .price {
   margin-left: 5%;
 }
+body main .contenu .cardsresto a {
+  text-decoration: none;
+}
 body main .contenu .cardsresto .bouton {
   display: flex;
   justify-content: center;
@@ -220,10 +223,8 @@ body main .contenu .cardsresto .bouton .commande {
   padding: 1%;
   width: 135px;
   height: 43px;
-}
-body main .contenu .cardsresto .bouton .commande a {
-  text-decoration: none;
-  color: white;
+  display: grid;
+  place-items: center;
 }
 body footer {
   background-color: rgb(81, 80, 80);

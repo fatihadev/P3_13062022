@@ -351,34 +351,45 @@ body
                 }
                 
 
-
-
+                a 
+                 
+                {
+                    text-decoration: none;
+                   
+                
+                }
                 .bouton
                 {   
                     display: flex;
                     justify-content: center;
+
+                  
                     
-                    .commande
-                    {
-                        background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
-                        font-size: 14px;
-                        color: white;
-                        border-radius: 34px;
-                        border: none;
-                        margin-bottom: 5%;
-                        padding: 1%;
-                        width: 135px;
-                        height: 43px;
-                        
-                        & a 
+                    
+                        .commande
                         {
-                            text-decoration: none;
+                            background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
+                            font-size: 14px;
                             color: white;
+                            border-radius: 34px;
+                            border: none;
+                            margin-bottom: 5%;
+                            padding: 1%;
+                            width: 135px;
+                            height: 43px;
+                            display: grid;
+                            place-items: center;
+                        
+                            
+                        
+                  
                         }
-                    }
 
 
                 }
+
+               
+
         }
 
 }
