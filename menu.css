@@ -221,6 +221,10 @@ body main .contenu .cardsresto .bouton .commande {
   width: 135px;
   height: 43px;
 }
+body main .contenu .cardsresto .bouton .commande a {
+  text-decoration: none;
+  color: white;
+}
 body footer {
   background-color: rgb(81, 80, 80);
   color: white;
@@ -354,6 +358,10 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     width: 174px;
     height: 66px;
   }
+  body main .contenu .cardsresto .bouton.commande a {
+    text-decoration: none;
+    color: white;
+  }
   body footer {
     font-size: 20px;
   }
@@ -364,7 +372,16 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
 
 @media screen and (max-width: 314px) {
   body h1 {
-    font: 19px;
+    font-size: 19px;
+    margin-top: 33px;
+  }
+  body main .contenu .coeur .titr {
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
+    margin-left: 2%;
+    margin-top: 40px;
   }
   body main .contenu .cardsresto .bouton {
     display: flex;
@@ -375,48 +392,53 @@ body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     font-size: 11px;
     height: 30px;
   }
-  footer {
+  body main .contenu .cardsresto .bouton .commande a {
+    text-decoration: none;
+    color: white;
+  }
+  body footer {
     background-color: rgb(81, 80, 80);
     color: white;
     width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
   }
-  footer h1 {
+  body footer h1 {
     font-family: "Shrikhand", sans-serif, Arial, "Trebuchet MS";
-    font-size: 30px;
+    font-size: 17px;
     margin: 0 0 0 5%;
   }
-  footer .finpage {
+  body footer .finpage {
     justify-content: space-between;
+    width: 80%;
     margin-left: 2%;
   }
-  footer .finpage .iconf {
+  body footer .finpage .iconf {
     display: flex;
-    width: 204px;
+    width: 60%;
   }
-  footer .finpage .iconf .fas {
+  body footer .finpage .iconf .fas {
     margin-left: 13px;
     margin-top: 0;
   }
-  footer .finpage .iconf p {
+  body footer .finpage .iconf p {
     margin-top: 0;
     margin-bottom: 0;
-    width: 90%;
   }
-  footer .finpage .legal {
+  body footer .finpage .legal {
     margin-left: 5%;
   }
-  footer .finpage .legal p {
+  body footer .finpage .legal p {
     margin: 0;
   }
-  footer .finpage .legal a {
+  body footer .finpage .legal a {
     text-decoration: none;
   }
-  footer .finpage .legal a .textp, footer .finpage .legal a p {
+  body footer .finpage .legal a .textp, body footer .finpage .legal a p {
     color: white;
     text-decoration: none;
     margin-bottom: 0;
+    margin-top: 6px;
   }
 }
 

@@ -637,6 +637,7 @@ footer
                         color: white;
                         text-decoration: none;
                         margin-bottom: 0;
+                        margin-top: 9px;
                     }
 
                 
@@ -1081,7 +1082,7 @@ main
     {
 
         text-align: center;
-        padding-top: 20px;
+        padding-top: 2px;
         background-color: rgb(232, 232, 232);
         display: flex;
         justify-content: flex-end;
@@ -1100,6 +1101,7 @@ main
             border: none;
             background-color: rgb(232, 232, 232);
             font-size: 12px;
+            margin-left: 0;
           
         }
     }
@@ -1125,7 +1127,6 @@ main
             background: -webkit-linear-gradient(180deg, #ff79da, #9356dc);
             width: 85%;
             border: none;
-            margin-left: 10%;
             display: grid;
             place-items: center;
             
@@ -1134,6 +1135,7 @@ main
             {
                 text-decoration: none;
                 color: white;
+                font-size: 12px;
             }
             
 
@@ -1189,7 +1191,7 @@ main
                 color: white;
                 position: absolute;
                 padding: 0.1%;
-                margin: -0.5% 0 0 -65%;
+                margin: -2% 0 0 -79%;
                 
             }
 
@@ -1200,7 +1202,8 @@ main
 
             & .texticon 
             {
-                width: 90% ;
+                width: 100%;
+                font-size: 10.5px;
             }
         }
         
@@ -1215,8 +1218,9 @@ main
 
         .resto
         {
-            margin-left: 4%;
+            margin-left: 0;
             padding-top: 3%;
+            font-size: 20px;
         }
         
         
@@ -1260,7 +1264,7 @@ main
                         text-align: center;
                         border-radius: 2px;
                         margin-top: 3%;
-                        margin-left: 45%;
+                        margin-left: 37%;
                         font-size: 15px;
 
                 
@@ -1314,13 +1318,14 @@ main
                                 width: 17px;
                                 height: 21px;
                                 margin-right: 8%;
+                                
                             
                         
                                 & i
                                 {
                                     position: absolute;
-                                    margin-top: 22px;
-                                    font-size: 15px
+                                    margin-top: 2px;
+                                    font-size: 18px;
                                 }
 
                             
@@ -1453,8 +1458,8 @@ main
                                 & i
                                 {
                                     position: absolute;
-                                    font-size: 15px;
-                                    margin-top: 22px;
+                                    margin-top: 2px;
+                                    font-size: 18px;
    
                                 }
 
@@ -1526,7 +1531,7 @@ footer
             & .iconf
             {
                 display: flex;
-                width: 132px;
+                width: 100%;
 
                 & .fas
                 {
@@ -1564,6 +1569,7 @@ footer
                         color: white;
                         text-decoration: none;
                         margin-bottom: 0;
+                        margin-top: 6px;
                     }
 
                 
